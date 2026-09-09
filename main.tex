@@ -1,0 +1,489 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================================
+% PACKAGES
+% ============================================================
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Page layout
+\usepackage[a4paper,margin=2.5cm]{geometry}
+
+% Mathematics
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+
+% Figures and tables
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{subcaption}
+\usepackage{float}
+
+% References
+\usepackage[numbers,sort&compress]{natbib}
+
+% Better typography
+\usepackage{microtype}
+
+% Links
+\usepackage[hidelinks]{hyperref}
+
+% Optional: colored boxes
+\usepackage{tcolorbox}
+
+
+% ============================================================
+% SI UNIT SETUP
+% ============================================================
+
+\sisetup{
+    separate-uncertainty = true,
+    per-mode = symbol,
+    exponent-product = \cdot
+}
+
+% ============================================================
+% DOCUMENT INFORMATION
+% ============================================================
+
+\title{
+    \textbf{Fortgeschrittenenpraktikum}\\[0.5em]
+    \Large Raman Spectroscopy
+}
+
+\author{
+    Raj Talashilkar\\
+    Andres Alvarez Rodriguez\\
+   RPTU 
+}
+
+\date{
+    Laboratory date: 31 September 2026\\
+    Report submitted: \today 
+}
+
+% ============================================================
+% DOCUMENT
+% ============================================================
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The vibration Raman effect consists of the appearance of vibration inelastic (Stokes) and superelastic (Antistokes) lines in the fluorescence spectrum of gases, liquids and solids. In this experiment the vibration Raman spectra of various liquid substances are recorded and identified.
+\end{abstract}
+
+\section{Theoretical background}
+\subsection{Raman scattering}
+Vibrational spectroscopies are employed in the determination of the molecular structures and are used in many areas. Among the available techniques, Raman spectroscopy is essential in the study of nanostructured materiales and biological systems. Detailed information of the molecular structure can be obtained, because each vibration of atoms shows a characteristic position and intensity. Both position and intensity are influenced by the chemical bonds, inter- and intramolecular forces \cite{Gustavo}
+
+
+
+An inelastic scattering process is responsible for the appearance of vibrational bands (raman spectra). Unlike in IR spectroscopy (where the photon energy must coincide with the energy difference between two available vibrational states), in Raman spectroscopy a molecule can scatter a monochromatic raadiation. The Raman spectrum appears in a wavelength $\lambda$ slightly higher or lower than the incident radiation \cite{Gustavo}.
+
+
+
+Thus Raman scattering can be visualized as a perturbation of the molecule by incident photon, which egienstates can be described as a linear combination of the stationary states (or time-independent) wave functions of the molecule. The photon released when the molecule returns to electronic ground state has, more often, the same incident photon energy (Rayleigh scattering), but Raman scattering (which contains the vibrational information) can also be present. \cite{Gustavo}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{energy_levels.pdf}
+    \caption{Energy-level diagram showing the states involved in Raman spectra \cite{wikipedia}}
+    \label{fig:energy_levels}
+\end{figure}
+
+A vibration (vibration coordinate $\rho$) is \textit{Raman active} when the polarizability $\alpha$ (or \textit{induced dipolar momentum}) of the molecule is changed (described as $\frac{\partial \alpha}{\partial \rho} \neq  \varnothing$). This illustrates that the nature of the Raman effect is physically different from the infrared. Slection rules are also different and thus lead to a different spectra \cite{Gustavo}.
+\subsection{Lock-in amplifiers}
+\label{sec:lock_explain}
+A lock-in amplifier is a type of amplifier that extracts a signal with a known carrier wave from a noisy environment. Depending on the instrument, signals up to orders of magnitude smaller than the noise components, potentially close by in frequency, can still be reliably detected \cite{lockin}. This reliability depends on the \textit{dynamic reserve} of the instrument, which is simply a measure of how well the instrument can extract the signal when there's a much larger unwanted noise sitting on top of it. Modern instruments achieve a dynamic reserve up to \SI{120}{\decibel} \cite{lockin}.
+
+
+For amplitude quantities,
+\begin{equation}
+	\si{\decibel} = 20 \log_{10} \left( \frac{A_{noise}}{A_{signal}}\right)
+\end{equation}
+So for \SI{120}{\decibel}, the above equation yields
+\begin{equation}
+	\SI{120}{\decibel} = 20 \log_{10} \left( \frac{A_{noise}}{A_{signal}}\right)
+\end{equation}
+which gives
+\begin{equation}
+	\frac{A_{noise}}{A_{signal}} = 10^{\frac{120}{20}} = 10^{6}
+\end{equation}
+So modern instruments can theoretically recover signals with an order of magnitude  $10^{-6}$ smaller than the noise.
+
+A lock-in amplifier performs a multiplication of its input with a reference signal, also sometimes called down-mixing or heterodyne/homodyne detection, and then applies an adjustable low-pass filter to the result \cite{zurich}.This method is termed demodulation or phase-sensitive detection and isolates the signal at the frequency of interest from all other frequency components. The reference signal is either generated by the lock-in amplifier itself or provided to the lock-in amplifier and the experiment by an external source. The reference signal is usually a sine wave but could have other forms, too. Demodulation with a pure sine wave enables selective measurement at the fundamental frequency or any of its harmonics \cite{zurich}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{lockin.pdf}
+    \caption{Lock-in amplifiers are capable of measuring the amplitude and the phase of a signal relative to a defined reference signal, even if the signal is entirely buried in noise. Adapted from \cite{zurich}}
+    \label{fig:lockin}
+\end{figure}
+
+\subsection{Classical and Quantum Mechanical Theory}
+
+The classical picture of Raman scattering starts with the electric field of the incident
+laser light,
+
+\begin{equation}
+    E(t) = E_0 \cos(\omega_0 t),
+\end{equation}
+
+which induces a dipole moment in the molecule,
+
+\begin{equation}
+    p(t) = \alpha E(t),
+\end{equation}
+
+where $\alpha$ is the molecular polarisability.
+
+Since the molecule is vibrating, its polarisability can change with the normal
+coordinate $Q$ of the vibration:
+
+\begin{equation}
+    \alpha(Q)
+    =
+    \alpha_0
+    +
+    \left(\frac{\partial \alpha}{\partial Q}\right)_0 Q.
+\end{equation}
+
+If the vibration has frequency $\omega_v$, the induced dipole contains
+components at
+
+\begin{equation}
+    \omega_0,
+    \qquad
+    \omega_0-\omega_v,
+    \qquad
+    \omega_0+\omega_v.
+\end{equation}
+
+These correspond to:
+
+\begin{itemize}
+    \item \textbf{Rayleigh scattering:} $\omega_0$
+    \item \textbf{Stokes Raman scattering:} $\omega_0-\omega_v$
+    \item \textbf{anti-Stokes Raman scattering:} $\omega_0+\omega_v$
+\end{itemize}
+
+In the quantum mechanical picture, the incident photon interacts with the molecule
+through a virtual state. The molecule changes its vibrational energy, and therefore
+the scattered photon has a different energy:
+
+\begin{equation}
+    E_{\mathrm{out}}
+    =
+    E_{\mathrm{in}} \mp \hbar\omega_v.
+\end{equation}
+
+Thus, the Raman shift directly provides information about the vibrational energy
+levels of the molecule.
+
+
+\subsection{Polarisability}
+
+Polarisability describes how easily the electron cloud of a molecule can be
+distorted by an external electric field. The induced dipole moment is given by
+
+\begin{equation}
+    \mathbf{p}_{\mathrm{ind}}
+    =
+    \boldsymbol{\alpha}\mathbf{E},
+\end{equation}
+
+where $\boldsymbol{\alpha}$ is generally a tensor.
+
+The important Raman selection rule is
+
+\begin{equation}
+    \boxed{
+    \left(\frac{\partial\alpha}{\partial Q}\right)_0 \neq 0
+    }
+\end{equation}
+
+A vibrational mode is therefore \textbf{Raman active if the vibration produces
+a change in the molecular polarisability}.
+
+
+\subsection{Degree of Depolarisation}
+
+The degree of depolarisation describes how much the polarisation of the scattered
+Raman light differs from that of the incident laser light. It is commonly defined as
+
+\begin{equation}
+    \rho
+    =
+    \frac{I_{\perp}}{I_{\parallel}},
+\end{equation}
+
+where $I_{\perp}$ is the intensity of the Raman light polarised perpendicular to
+the incident polarisation and $I_{\parallel}$ is the intensity parallel to it.
+
+For the usual treatment of Raman scattering from randomly oriented molecules,
+
+\begin{equation}
+    0 \leq \rho \leq \frac{3}{4}.
+\end{equation}
+
+A low value of $\rho$ corresponds to strongly polarised Raman scattering, whereas
+a larger value indicates stronger depolarisation. The degree of depolarisation can
+provide information about the symmetry of a vibrational mode.
+
+
+\subsection{Scattering Cross Section}
+
+The scattering cross section $\sigma$ describes the probability that an incident
+photon will be scattered by a molecule. It can be interpreted as an effective area
+that characterises the scattering probability.
+
+Raman scattering has a very small scattering cross section compared with Rayleigh
+scattering. Consequently, Raman signals are weak and require sensitive detectors
+and sufficiently strong laser illumination.
+
+
+\subsection{Normal Coordinates and Normal Oscillations}
+
+A molecule can undergo many different vibrational motions. These motions can be
+decomposed into independent \textbf{normal modes}.
+
+Each normal mode has:
+
+\begin{itemize}
+    \item a characteristic pattern of atomic motion,
+    \item a characteristic vibrational frequency, and
+    \item a normal coordinate $Q$ describing the amplitude of the vibration.
+\end{itemize}
+
+The molecular motion can therefore be described using a set of normal coordinates,
+
+\begin{equation}
+    Q_1,Q_2,Q_3,\ldots
+\end{equation}
+
+which correspond to the different normal modes of vibration.
+
+The dependence of the polarisability on a normal coordinate is particularly
+important for Raman spectroscopy:
+
+\begin{equation}
+    \alpha(Q)
+    =
+    \alpha_0
+    +
+    \left(\frac{\partial\alpha}{\partial Q}\right)_0 Q
+    + \cdots.
+\end{equation}
+
+
+\subsection{Induced and Permanent Dipole Moment}
+
+A molecule may possess a \textbf{permanent dipole moment} due to an asymmetric
+distribution of electric charge,
+
+\begin{equation}
+    \mathbf{p}_0 \neq 0.
+\end{equation}
+
+An external electric field can also distort the electron cloud and produce an
+\textbf{induced dipole moment}:
+
+\begin{equation}
+    \mathbf{p}_{\mathrm{ind}}
+    =
+    \boldsymbol{\alpha}\mathbf{E}.
+\end{equation}
+
+Raman scattering originates from this induced dipole. The electric field of the
+laser drives the induced dipole, which subsequently radiates the scattered light.
+
+
+%\subsection{The Raman Effect in One Picture}
+
+%The essential physical picture can be summarised as
+%\begin{equation}
+%    E(t)
+%    \rightarrow
+%    p(t)=\alpha(Q)E(t)
+%    \rightarrow
+%    \omega_0,\,
+%    \omega_0-\omega_v,\,
+%    \omega_0+\omega_v.
+%\end{equation}
+
+%The Raman spectrum therefore provides information about the vibrational modes of
+%the molecule. In practice, the horizontal axis is usually expressed as a Raman
+%shift in $\si{\per\centi\meter}$, which corresponds to the difference between the
+%wavenumber of the incident laser and that of the scattered light.
+
+
+\section{Methodology}
+
+\subsection{Calibration of the Monochromator}
+
+First the monochromator's transmission curves for horizontally and vertically polarized light were looked after. To do so, a Quartz Tungsten-Halogen Lamp was used. This lamp features a stable output and broadband, inchoherent illlumination in the visible and near-IR portions of the spectrum.
+
+A polarizer was placed at the input of the monochromator as show in figure \ref{fig:polarizer}. For further analysis, it is important that both transmission curves are comparable, and hence measured with the same set parameters in the experiment (or somehow made compatible through data processing). After tweaking the parameters of the coupler and the photomultiplier high voltage supply, the following configuration was found to have enough dynamic range to record both horizontal and vertical without saturating the instrument signals:
+The setup was first manipulated as to fit the output voltage obtained by horizontally polarized light best, just below the saturation point for the whole spectra. The coupler was set in $10^{-6}$, the voltage supply for the photomultiplier to $\sim\SI{300}{\V}$ and the spectra was taken from $\SI{400}{\nm}$ to $\SI{800}{\nm}$ at a speed of $\SI{5}{\nm\per\second}$.
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{polarized.jpg}
+    \caption{Halogen lamp, polarizer and monochromator input}
+    \label{fig:polarizer}
+\end{figure}
+
+Then, with the same set of parameters, the polarizer was vertically aligned and once again  the spectra was taken from $\SI{400}{\nm}$ to $\SI{800}{\nm}$ at the same speed.
+
+The curve corresponding to horizontal polarization can be seen in figure \ref{fig:horizontal_raw}. The curve corresponding to vertical polarization can be seen in figure \ref{fig:vertical_raw}. Both of these figures are raw images extracted from the  TDS2001IC oscilloscope screen. 
+
+In the experiment, the monochromator grating is adjusted by a servo motor conected to a microcontroller which was programmed to make precise adjustments to the grating. In order to know which voltage corresponds to which wavelength, the arduino's voltage output is also recorder in the oscilloscope to match the data. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{horizontal_raw.jpg}
+    \caption{Voltage curve of the photomultiplier for horizontally polarized light (orange) and servo voltage (blue).}
+    \label{fig:horizontal_raw}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{vertical_raw.jpg}
+    \caption{Voltage curve of the photomultiplier for vertically polarized light (orange) and servo voltage (blue).}
+    \label{fig:vertical_raw}
+\end{figure}
+
+The data shown in both figures \ref{fig:horizontal_raw} and \ref{fig:vertical_raw} will be useful to apply instrument response correction (correct the actual raman spectra taking into account the wavelength-dependent intensity of the photocromator).
+
+
+The Halogen lamp was removed from the array, and the two lenses that form the telescope were placed so that the laser light goes in as focused as possible in the monochromator.
+The ethanol + salt sample was inserter in the chamber. This sample has a very strong rayleigh reflection, and is thus the ideal sample to align the experiment. The monochromator was swept in between 622 and 642 nm. The Voltage curve can be seen in figure \ref{fig:base}. Note that the lock-in mechanism and the chopper are not active yet.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{base.jpg}
+    \caption{Voltage curve of the \SI{633}{\nano\meter} laser (ethanol +salt cuvette)}
+    \label{fig:base}
+\end{figure}
+
+Figure \ref{fig:base} shows that our laser indeed has a gaussian profile with a peak pressumably at \SI{633}{\nano\meter}.
+
+
+
+
+\subsubsection{instrument response correction}
+\label{sec:correction}
+Figures \ref{fig:horizontal_raw} and \ref{fig:vertical_raw} prove that the monochromator has a wavelength-dependent response $R(\lambda)$, thus we can say that approximately
+\begin{equation}
+	I_{measured}(\lambda) = I_{true}(\lambda)R(\lambda)
+\end{equation}
+
+So to correct the measured spectrum we divide by the response of the monochromator.
+
+
+\subsection{Experiment Setup}
+
+Having the monochromator response, the rest of the setup can be properly introduced in the experiment. A laser of wavelength of \SI{633}{\nano\meter} goes through a mechanical chopper whose frecuency can be adjusted by a control box. The laser then goes through a cage system containing a sample, it is then reflected onto the telescope system. Finally the laser goes inside the photochromator. the photomultiplier then outputs a signal for data analysis.
+ In between the sample and the monochromator, a polarizer is introduced to analize the change in light polarization after the sample. The laser polarization can also be adjusted by rotating the laser tube.
+
+ A diagram of the experiment can be seen in \ref{fig:setup}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{setup.png}
+    \caption{Setup of the experiment. Taken from \cite{manual}}
+    \label{fig:setup}
+\end{figure}
+
+
+After the monochromator, the signal processing electronics take place. Given that the photomultiplier signal is very small, immediately after a preamp is connected to strengthen the signal. Said signal is then fed to a phase sensitive Detector. This detector has as reference the phase-shifted signal of the chopper. A picture of this part of the array is seen in figure \ref{fig:filters}. These electronics and configuration is explained in detail in section \ref{sec:configuration_locking}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{filters.jpg}
+    \caption{Lock-In amplifier inputs and outputs (knobs are not in final position)}
+    \label{fig:filters}
+\end{figure}
+
+
+\subsection{Lock-In Amplifier}
+It will be seen in the following sections of this protocol that raman peaks are of very low intensity and can be hard to discern in a regular spectrum; this is because raman scattering is considerably weaker than rayleigh scattering. Often they can be burried in noise and the rayleigh peaks can also bury them if they're overlapping.
+
+To overcome this challenge, we need a way to remove unwanted noise from the spectra. This is where the Lock-In amplifier comes in handy as explained in section \ref{sec:lock_explain}
+\subsubsection{Lock-in amplifier configuration}
+\label{sec:configuration_locking}
+The optical chopper was set to an arbitrary frecuency (around \SI{130}{\Hz}). The chopper driver generates an AC output that was forwared to our Phase shifter. The output of the phase shifter is then taken as a reference signal in the phase sensitive detector (PSD). Furthermore, the chopper frecuency can be calculated with the AC output signal. The output of the current amplifier (whose input is the photomultiplier) is then taken as the input signal on the PSD. Refer to figure\ref{fig:filters} for a visual image of the connections.
+
+
+The fine-tuning of the lock-in mechanism took place. Given that the chopper has a frencuency of around \SI{130}{\Hz}, the phase shifter fricuency has to be set accordingly to the range $100 - 1000 \si{Hz}$. Then the phase shift is adjusted either to match closely either $0^{\circ}$ or $180^{\circ}$. This is because the photodiode signal at the chopping frequency has the form
+\begin{equation}
+	S(t) = A \cos(\omega t + \phi)
+\end{equation}
+while the reference from the chopper is
+\begin{equation}
+	R(t) = \cos(\omega t + \theta)
+\end{equation}
+
+At the PSD, both signals are multiplied and low-pass filtered, giving an expression ressembling
+\begin{equation}
+	V(t) = \frac{A}{2}\cos(\phi - \theta)
+\end{equation}
+It is evident that the resulting signal has an absolute maxima when the above condition is met. In practice, this is done by hooking the photodiode and the phase-shifted chopper signal in the two channels of the oscilloscope and adjusting the time scale to distinguish the square oscillating signal as seen in figure \ref{fig:locking}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{lockin.jpg}
+    \caption{Phase shifted chopper (blue) and photodiode (yellow) on the oscilloscope. They fulfill the locked condition }
+    \label{fig:locking}
+\end{figure}
+
+The time constant $\alpha$ of the PSD was introduced after that. The time constant is the low pass constant which determines how quickly the PSD output is allowed to respond to changes by controlling the bandwidth of its low pass filter.
+
+Simply put, if $\alpha$ is small, the output responds quickly, but more noise gets through. Viceversa, if $\alpha$ is big, output changes slowly, but more noise is rejected.
+
+For the experiment, a low value of alpha was too noisy to identify properly raman peaks. 
+
+
+\section{Results}
+
+After processing the data by taking into account the servo response, both of the curves seen in  figures \ref{fig:horizontal_raw} and \ref{fig:vertical_raw} are now shown with the wavelength (\si{\nano\meter}) in figures \ref{fig:horizontal_processed} and \ref{fig:vertical_processed}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{horizontal_processed.jpg}
+    \caption{Monochromator response (horizontally polarized light).}
+    \label{fig:horizontal_processed}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{vertical_processed.jpg}
+    \caption{Monochromator response (vertically polarized light).}
+    \label{fig:vertical_processed}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{base_processed.jpg}
+    \caption{Laser spectra (ethanol + salt)}
+    \label{fig:base_processsed}
+\end{figure}
+
+Take note that all of the next results are corrected to consider the monochromator polarizability/wavelength response as explained in section \ref{sec:correction}.
+
+
+
+\section{Discussion}
+
+
+\nocite{*}
+% ============================================================
+
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}
+

@@ -1,0 +1,37 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[do~Nascimento(2018)]{Gustavo}
+Gustavo~Morari do~Nascimento.
+\newblock \emph{Raman Spectroscopy}.
+\newblock IntechOpen, London, Apr 2018.
+\newblock ISBN 978-1-78923-001-7.
+\newblock \doi{10.5772/intechopen.68928}.
+\newblock URL \url{https://doi.org/10.5772/intechopen.68928}.
+
+\bibitem[{Wikipedia Contributors}(2009)]{wikipedia}
+{Wikipedia Contributors}.
+\newblock Raman spectroscopy, 2009.
+\newblock URL \url{https://en.wikipedia.org/wiki/Raman_spectroscopy}.
+\newblock Accessed: August 25, 2026.
+
+\bibitem[{Wikipedia contributors}(2026)]{lockin}
+{Wikipedia contributors}.
+\newblock Lock-in amplifier, 2026.
+\newblock URL \url{https://en.wikipedia.org/wiki/Lock-in_amplifier}.
+\newblock Wikipedia, The Free Encyclopedia.
+
+\bibitem[{Zurich Instruments}(2023)]{zurich}
+{Zurich Instruments}.
+\newblock Principles of lock-in detection and the state of the art, 2023.
+\newblock White Paper, last update April 2023.
+
+\bibitem[Tec(2018)]{manual}
+\emph{Raman-Spektroskopie: Versuchsanleitung / Raman-Spectroscopy: Laboratory Instruction}.
+\newblock Technische Universität Kaiserslautern, Fachbereich Physik, January 2018.
+
+\end{thebibliography}
