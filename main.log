@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  9 SEP 2026 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  10 SEP 2026 14:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -773,7 +773,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<energy_levels.pdf, id=78, 639.89063pt x 489.32813pt>
+<energy_levels.pdf, id=90, 639.89063pt x 489.32813pt>
 File: energy_levels.pdf Graphic file (type pdf)
 <use energy_levels.pdf>
 Package pdftex.def Info: energy_levels.pdf  used on input line 95.
@@ -781,7 +781,7 @@ Package pdftex.def Info: energy_levels.pdf  used on input line 95.
  [1
 
 {/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}] [2{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./energy_levels.pdf>]
-<lockin.pdf, id=125, 731.59824pt x 282.32727pt>
+<lockin.pdf, id=137, 731.59824pt x 282.32727pt>
 File: lockin.pdf Graphic file (type pdf)
 <use lockin.pdf>
 Package pdftex.def Info: lockin.pdf  used on input line 124.
@@ -790,59 +790,60 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 17
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./lockin.pdf>] [4]
-<polarized.jpg, id=192, 728.2407pt x 797.379pt>
+<polarized.jpg, id=204, 728.2407pt x 797.379pt>
 File: polarized.jpg Graphic file (type jpg)
 <use polarized.jpg>
-Package pdftex.def Info: polarized.jpg  used on input line 337.
+Package pdftex.def Info: polarized.jpg  used on input line 345.
 (pdftex.def)             Requested size: 227.62206pt x 249.22899pt.
-<horizontal_raw.jpg, id=195, 256.96pt x 192.72pt>
+ [5]
+<horizontal_raw.jpg, id=217, 256.96pt x 192.72pt>
 File: horizontal_raw.jpg Graphic file (type jpg)
 <use horizontal_raw.jpg>
-Package pdftex.def Info: horizontal_raw.jpg  used on input line 349.
+Package pdftex.def Info: horizontal_raw.jpg  used on input line 357.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
-<vertical_raw.jpg, id=196, 256.96pt x 192.72pt>
+<vertical_raw.jpg, id=218, 256.96pt x 192.72pt>
 File: vertical_raw.jpg Graphic file (type jpg)
 <use vertical_raw.jpg>
-Package pdftex.def Info: vertical_raw.jpg  used on input line 355.
+Package pdftex.def Info: vertical_raw.jpg  used on input line 363.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
- [5] [6 <./polarized.jpg> <./horizontal_raw.jpg>]
-<base.jpg, id=215, 256.96pt x 192.72pt>
+ [6 <./polarized.jpg> <./horizontal_raw.jpg>]
+<base.jpg, id=228, 256.96pt x 192.72pt>
 File: base.jpg Graphic file (type jpg)
 <use base.jpg>
-Package pdftex.def Info: base.jpg  used on input line 368.
+Package pdftex.def Info: base.jpg  used on input line 376.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
  [7 <./vertical_raw.jpg> <./base.jpg>]
-<setup.png, id=226, 839.135pt x 704.6325pt>
+<setup.png, id=239, 839.135pt x 704.6325pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
-Package pdftex.def Info: setup.png  used on input line 397.
+Package pdftex.def Info: setup.png  used on input line 405.
 (pdftex.def)             Requested size: 318.66948pt x 267.59111pt.
-<filters.jpg, id=232, 3034.33624pt x 2486.28876pt>
+<filters.jpg, id=245, 3034.33624pt x 2486.28876pt>
 File: filters.jpg Graphic file (type jpg)
 <use filters.jpg>
-Package pdftex.def Info: filters.jpg  used on input line 407.
+Package pdftex.def Info: filters.jpg  used on input line 415.
 (pdftex.def)             Requested size: 318.66948pt x 261.08699pt.
  [8 <./setup.png>] [9 <./filters.jpg>]
-<lockin.jpg, id=252, 256.96pt x 192.72pt>
+<lockin.jpg, id=265, 256.96pt x 192.72pt>
 File: lockin.jpg Graphic file (type jpg)
 <use lockin.jpg>
-Package pdftex.def Info: lockin.jpg  used on input line 439.
+Package pdftex.def Info: lockin.jpg  used on input line 447.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
-<horizontal_processed.jpg, id=257, 643.203pt x 390.258pt>
+<horizontal_processed.jpg, id=270, 643.203pt x 390.258pt>
 File: horizontal_processed.jpg Graphic file (type jpg)
 <use horizontal_processed.jpg>
-Package pdftex.def Info: horizontal_processed.jpg  used on input line 457.
+Package pdftex.def Info: horizontal_processed.jpg  used on input line 465.
 (pdftex.def)             Requested size: 318.66948pt x 193.35396pt.
-<vertical_processed.jpg, id=258, 642.9621pt x 390.258pt>
+<vertical_processed.jpg, id=271, 642.9621pt x 390.258pt>
 File: vertical_processed.jpg Graphic file (type jpg)
 <use vertical_processed.jpg>
-Package pdftex.def Info: vertical_processed.jpg  used on input line 463.
+Package pdftex.def Info: vertical_processed.jpg  used on input line 471.
 (pdftex.def)             Requested size: 318.66948pt x 193.42542pt.
  [10 <./lockin.jpg>]
-<base_processed.jpg, id=266, 642.9621pt x 390.258pt>
+<base_processed.jpg, id=279, 642.9621pt x 390.258pt>
 File: base_processed.jpg Graphic file (type jpg)
 <use base_processed.jpg>
-Package pdftex.def Info: base_processed.jpg  used on input line 470.
+Package pdftex.def Info: base_processed.jpg  used on input line 478.
 (pdftex.def)             Requested size: 318.66948pt x 193.42542pt.
  [11 <./horizontal_processed.jpg> <./vertical_processed.jpg> <./base_processed.jpg>] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 14.
@@ -859,21 +860,21 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 66DB8C68DDD249A30DFFD8A4CCF2B80A;2965.
+(rerunfilecheck)             Checksum: 9EB8FFFC2B9A448C4F7F1D483E7EB53E;3495.
  ) 
 Here is how much of TeX's memory you used:
- 30667 strings out of 468580
- 623693 string characters out of 5444080
- 1005652 words of memory out of 5000000
- 59140 multiletter control sequences out of 15000+600000
+ 30675 strings out of 468580
+ 623810 string characters out of 5444080
+ 1005704 words of memory out of 5000000
+ 59144 multiletter control sequences out of 15000+600000
  693251 words of font info for 154 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  106i,7n,118p,1001b,1063s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (12 pages, 6820812 bytes).
+Output written on main.pdf (12 pages, 6823194 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 37585 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 37609 words of extra memory for PDF output out of 42996 (max. 10000000)
 

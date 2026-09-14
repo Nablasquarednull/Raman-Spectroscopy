@@ -303,7 +303,15 @@ An external electric field can also distort the electron cloud and produce an
 Raman scattering originates from this induced dipole. The electric field of the
 laser drives the induced dipole, which subsequently radiates the scattered light.
 
+\subsection{Raman shift wavenumber}
+\label{sec:wavenumber}
+Given that energy shifts in the incident photons are not wavelenght dependent, it makes sense to express the raman spectra in a wavelenght-independent notation. Raman shift wavenumbers are the unit used to do so. The raman shift of a photon is simply
+\begin{equation}
+	\Delta \nu = \nu_{0} - \nu_{s}
+\end{equation}
+where $\nu_{0}$ is the frequency of the incident light and $\nu_{s}$ is the frecuency of the scattered light.
 
+This way we can express raman shifts without involving laser wavelengths knowing well that raman spectra will show in the same wavenumber regarding of the laser used.
 %\subsection{The Raman Effect in One Picture}
 
 %The essential physical picture can be summarised as
@@ -445,7 +453,7 @@ The time constant $\alpha$ of the PSD was introduced after that. The time consta
 
 Simply put, if $\alpha$ is small, the output responds quickly, but more noise gets through. Viceversa, if $\alpha$ is big, output changes slowly, but more noise is rejected.
 
-For the experiment, a low value of alpha was too noisy to identify properly raman peaks. 
+\subsection{Measurements}
 
 
 \section{Results}
@@ -473,6 +481,10 @@ After processing the data by taking into account the servo response, both of the
 \end{figure}
 
 Take note that all of the next results are corrected to consider the monochromator polarizability/wavelength response as explained in section \ref{sec:correction}.
+
+\subsection{Raman spectra of CCL4 and Benzene}
+As suggested in  section \ref{sec:wavenumber}, all of the results are presented in the appropiate raman shift wavenumber
+
 
 
 
