@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -33,5 +33,11 @@ Gustavo~Morari do~Nascimento.
 \bibitem[Tec(2018)]{manual}
 \emph{Raman-Spektroskopie: Versuchsanleitung / Raman-Spectroscopy: Laboratory Instruction}.
 \newblock Technische Universität Kaiserslautern, Fachbereich Physik, January 2018.
+
+\bibitem[Shimanouchi(1972)]{NIST}
+Takehiko Shimanouchi.
+\newblock Tables of molecular vibrational frequencies, consolidated volume i.
+\newblock \penalty0 (NSRDS-NBS 39), 1972.
+\newblock \doi{10.6028/NBS.NSRDS.39}.
 
 \end{thebibliography}
