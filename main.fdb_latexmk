@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1789387509.85096 "main.aux" "main.bbl" "main" 1789462223.56126 0
+["bibtex main"] 1789462974.82205 "main.aux" "main.bbl" "main" 1789464093.84927 0
   "./references.bib" 1788958052.31988 1350 665936f86977b0b875d2007bc4bbbf90 ""
   "/usr/local/texlive/2026basic/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1233624470 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1789462223.43267 12141 e1826fd6e60f743288fc927157f1d906 "pdflatex"
+  "main.aux" 1789464093.77131 13142 2a29a2006b6f7d58191a26a487e6f129 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1789462221.33866 "main.tex" "main.pdf" "main" 1789462223.56135 0
+["pdflatex"] 1789464092.64946 "main.tex" "main.pdf" "main" 1789464093.84935 0
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -214,18 +214,18 @@
   "horizontal_raw.jpg" 1788248930 93748 791298d2e86c819de2b81775559b0b95 ""
   "lockin.jpg" 1788503684 98465 8543ce15bfbf933332aae7f8dbba2aad ""
   "lockin.pdf" 1787747994.84138 30868 ad8c890f15a398fcf62b9329977477e1 ""
-  "main.aux" 1789462223.43267 12141 e1826fd6e60f743288fc927157f1d906 "pdflatex"
-  "main.bbl" 1789387509.86211 1400 95baf96853748a9a009c29eb9811e0b2 "bibtex main"
-  "main.out" 1789462223.43679 3952 b67336ba1c2f462695027a2ca5f4ff8a "pdflatex"
-  "main.tex" 1789387505.82441 26026 581454ad7d644c6c868acd49c4a7bce4 ""
+  "main.aux" 1789464093.77131 13142 2a29a2006b6f7d58191a26a487e6f129 "pdflatex"
+  "main.bbl" 1789462974.8363 1400 95baf96853748a9a009c29eb9811e0b2 "bibtex main"
+  "main.out" 1789464093.7719 3952 b67336ba1c2f462695027a2ca5f4ff8a "pdflatex"
+  "main.tex" 1789463132.48847 28078 99246e9682ff0bc9674f91e64a950974 ""
   "plots/CCL4_0_0.png" 1789462066.79248 46782 4c5204d3e336777357d99d49b84a8865 ""
   "plots/CCL4_0_90.png" 1789461925.37469 40807 2c1a9dff87b12b7f236d76fe2d0cbeb5 ""
   "plots/CCL4_90_0.png" 1789462177.74205 54514 7638fbffc0bfc04fcda0c3e6ce3d5871 ""
   "plots/CCL4_90_90.png" 1789461753.17436 44223 c24ecaf9cfe8f14c446da525e49f6d6c ""
-  "plots/benzene_0_0.png" 1789130950.33583 44758 bdca81e421d045530ae228c97025b932 ""
-  "plots/benzene_0_90.png" 1789130839.28429 49695 38f0f6d8db36b1667fa5b4605263a536 ""
-  "plots/benzene_90_0.png" 1789131014.94291 37895 62e473feca55164cc2c0f201ff4db867 ""
-  "plots/benzene_90_90.png" 1789130776.64228 33480 181e4b3076fb759575c5d039d944eb4b ""
+  "plots/benzene_0_0.png" 1789463945.19643 51731 09a82bd5efb31f0fd59d4d13c9bba58c ""
+  "plots/benzene_0_90.png" 1789463775.88594 44316 38f34ce37239cf0a755b0c544e54e25a ""
+  "plots/benzene_90_0.png" 1789463925.44496 44828 4c146a0d8dd4291cc759bc40176722b1 ""
+  "plots/benzene_90_90.png" 1789463734.1265 39386 bf1aae6312ac6a96c4a7821a0674dd78 ""
   "plots/ethanol_100.png" 1789379121.02555 45085 44014b841c83b0e4a68d94171217416f ""
   "plots/ethanol_50.png" 1789379191.36616 34714 758b13908d8ea1529ee918d1d0b682f6 ""
   "plots/ethanol_75.png" 1789379156.63925 44255 cc596d0e717af31eff14de3e87bb93eb ""
