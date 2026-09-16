@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1789476860.39696 "main.aux" "main.bbl" "main" 1789487562.24947 0
+["bibtex main"] 1789564381.63769 "main.aux" "main.bbl" "main" 1789564402.27051 0
   "./references.bib" 1789474320.71128 1732 241ec5aee6e56f7b29fb91c768071045 ""
   "/usr/local/texlive/2026basic/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1233624470 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1789487562.11011 13673 98298baca3c44268f32777d4e4c54f35 "pdflatex"
+  "main.aux" 1789564402.13904 13673 2ababa0e3beea783d9fcd5b7766cf250 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1789487559.92376 "main.tex" "main.pdf" "main" 1789487562.24956 0
+["pdflatex"] 1789564399.99979 "main.tex" "main.pdf" "main" 1789564402.27059 0
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -214,10 +214,10 @@
   "horizontal_raw.jpg" 1788248930 93748 791298d2e86c819de2b81775559b0b95 ""
   "lockin.jpg" 1788503684 98465 8543ce15bfbf933332aae7f8dbba2aad ""
   "lockin.pdf" 1787747994.84138 30868 ad8c890f15a398fcf62b9329977477e1 ""
-  "main.aux" 1789487562.11011 13673 98298baca3c44268f32777d4e4c54f35 "pdflatex"
-  "main.bbl" 1789476860.41321 1615 b20267575ff25b95dd7a890076bbddee "bibtex main"
-  "main.out" 1789487562.1143 4878 66bcc632a66f48b4d87eff1589bac6a6 "pdflatex"
-  "main.tex" 1789487559.83024 31428 d42bb7a0dba2775c666fc9b4564bd294 ""
+  "main.aux" 1789564402.13904 13673 2ababa0e3beea783d9fcd5b7766cf250 "pdflatex"
+  "main.bbl" 1789564381.65198 1615 b20267575ff25b95dd7a890076bbddee "bibtex main"
+  "main.out" 1789564402.14272 4878 66bcc632a66f48b4d87eff1589bac6a6 "pdflatex"
+  "main.tex" 1789564398.95542 32740 eec82655c410feca40aee520a48fb362 ""
   "plots/CCL4_0_0.png" 1789462066.79248 46782 4c5204d3e336777357d99d49b84a8865 ""
   "plots/CCL4_0_90.png" 1789461925.37469 40807 2c1a9dff87b12b7f236d76fe2d0cbeb5 ""
   "plots/CCL4_90_0.png" 1789462177.74205 54514 7638fbffc0bfc04fcda0c3e6ce3d5871 ""
