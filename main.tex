@@ -31,6 +31,12 @@
 
 % Links
 \usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
 
 % Optional: colored boxes
 \usepackage{tcolorbox}
@@ -696,8 +702,13 @@ Similarly, the only peak measured for benzene is only really visible on figure \
 \cite{NIST} also reports the same polarization degrees as in our experiment
 
 \subsection{unknown samples}
+The spectra of both unknown samples was taken without the analyzer, so the depolarization ratio cannot be discussed.
 
-\subsection{Determination of the ethanol concentration of an unknown sample}
+To find out what molecule(s) are in the sample, the \href{https://webbook.nist.gov/chemistry/vib-ser/}{
+Search for Species Data by Vibrational Energy Value} of the NIST was used.
+After introducing the wavenumbers recorded in the experiment, a comparison between many molecules was done. given that we're lacking the polarization of the peaks, it's harder to pinpoint the actual content of the cuvette. Many molecules and peaks were looked after and a lot of the search filters were applied. Ultimately, we suspect that our spectra is heavily shifted, and we couldn't identify either of the two samples.
+
+\subsectio{Determination of the ethanol concentration of an unknown sample}
 \nocite{*}
 \newpage
 % ============================================================
