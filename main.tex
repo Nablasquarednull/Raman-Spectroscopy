@@ -459,8 +459,6 @@ The time constant $\alpha$ of the PSD was introduced after that. The time consta
 
 Simply put, if $\alpha$ is small, the output responds quickly, but more noise gets through. Viceversa, if $\alpha$ is big, output changes slowly, but more noise is rejected.
 
-\subsection{Measurements}
-
 
 \section{Results}
 
@@ -602,10 +600,83 @@ Spectra of multiple samples with known ratios of ethanol and destilled water wer
     \label{fig:ethanol_100}
 \end{figure}
 
+\subsection{Fit of relevant peaks}
+\subsubsection{CCL4}
+%BIG PEAK
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots/CCL4_458.png}
+    \caption{Fit for  Raman peak at $\SI{491.9}{\cm ^{-1}}$}
+    \label{fig:ccl4_458}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rllllll}
+\toprule
+Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+491 & Gaussian & 492.0 ± 0.2 & 653.35 ±  0.01 & 58.2 & 0.9954 \\
+491 & Lorentzian & 491.4 ± 0.3 & 653.32 ±  0.01 & 61.8 & 0.9902 \\
+491 & Voigt & 491.9 ± 0.2 & 653.34 ±  0.01 & 58.8 & 0.9956 \\
+\bottomrule
+\end{tabular}
+\caption{Fit parameters for the $\SI{491.9}{\cm^{-1}}$ Raman peak.}
+\end{table}
+%TWIN PEAKS OR WHATEVER
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots/dual_peak.png}
+    \caption{Fit for  Raman peak at $\SI{491.9}{\cm ^{-1}}$}
+    \label{fig:ccl4_dual}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rllllll}
+\toprule
+Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+245 & Gaussian & 246.2 $\pm$ 0.5 & 56.0 & 0.9838 \\
+332 & Gaussian & 339.0 $\pm$ 0.4 & 62.0 & 0.9838 \\
+245 & Lorentzian & 244.2 $\pm$ 0.5 & 56.1 & 0.9806 \\
+332 & Lorentzian & 340.5 $\pm$ 0.5 & 64.4 & 0.9806 \\
+245 & Voigt & 245.0 $\pm$ 0.6 & 52.4 & 0.9848 \\
+332 & Voigt & 338.7 $\pm$ 0.8 & 67.5 & 0.9848 \\
+\bottomrule
+\end{tabular}
+\caption{Fit parameters for the twin peaks $\SI{245}{\cm^{-1}}$ and $\SI{332}{\cm^{-1}}$ Raman peak.}
+\end{table}
+
+
+\subsubsection{Benzene}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots/Benzene_991.png}
+    \caption{Fit for  Raman peak at $\SI{1035}{\cm ^{-1}}$}
+    \label{fig:ccl4_991}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rllllll}
+\toprule
+Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+1028 & Gaussian & 1035.1 ± 0.2 & 677.38 ±  0.01 & 53.8 & 0.9934 \\
+1028 & Lorentzian & 1034.7 ± 0.3 & 677.37 ±  0.01 & 51.4 & 0.9892 \\
+1028 & Voigt & 1035.0 ± 0.2 & 677.38 ±  0.01 & 53.2 & 0.9950 \\
+\bottomrule
+\end{tabular}
+\caption{Fit parameters for the Benzene $\SI{1035}{\cm^{-1}}$ Raman peak.}
+\end{table}
 
 
 \section{Discussion}
+\subsection{CCl4}
+
+
+\subsection{Benzene}
 \subsection{CCL4 and Benzene}
+
 \subsubsection{peaks}
 Tables \ref{tab:ccl4_raman_comparison} and \ref{tab:benzene_raman_comparison} show the reported raman shifts according to  \cite{NIST} against the measured shifts in the experiment.
 
