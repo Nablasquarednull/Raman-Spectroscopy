@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-
+%Dependencies and packages{{{
 % ============================================================
 % PACKAGES
 % ============================================================
@@ -75,7 +75,8 @@
 % ============================================================
 % DOCUMENT
 % ============================================================
-
+%}}}
+%Intro and abstract{{{ 
 \begin{document}
 
 \maketitle
@@ -336,7 +337,8 @@ This way we can express raman shifts without involving laser wavelengths knowing
 %shift in $\si{\per\centi\meter}$, which corresponds to the difference between the
 %wavenumber of the incident laser and that of the scattered light.
 
-
+%}}}
+%METHODOLOGY {{{
 \section{Methodology}
 
 \subsection{Calibration of the Monochromator}
@@ -459,9 +461,10 @@ The time constant $\alpha$ of the PSD was introduced after that. The time consta
 
 Simply put, if $\alpha$ is small, the output responds quickly, but more noise gets through. Viceversa, if $\alpha$ is big, output changes slowly, but more noise is rejected.
 
-
+% }}}
+% Results {{{1
 \section{Results}
-
+% Calibration {{{2
 After processing the data by taking into account the servo response, both of the curves seen in  figures \ref{fig:horizontal_raw} and \ref{fig:vertical_raw} are now shown with the wavelength (\si{\nano\meter}) in figures \ref{fig:horizontal_processed} and \ref{fig:vertical_processed}
 
 \begin{figure}[H]
@@ -485,7 +488,8 @@ After processing the data by taking into account the servo response, both of the
 \end{figure}
 
 Take note that all of the next results are corrected to consider the monochromator polarizability/wavelength response as explained in section \ref{sec:correction}.
-
+% }}}2
+% Spectra of CCL4 and Benzene {{{2
 \subsection{Raman spectra of CCL4 and Benzene}
 As suggested in  section \ref{sec:wavenumber}, all of the results are presented in the appropiate raman shift wavenumber.
 
@@ -518,7 +522,6 @@ As suggested in  section \ref{sec:wavenumber}, all of the results are presented 
     \label{fig:CCL4_90_90}
 \end{figure}
 
-
 %----------------Benzene-----------------------%
 \begin{figure}[H]
     \centering
@@ -547,7 +550,8 @@ As suggested in  section \ref{sec:wavenumber}, all of the results are presented 
     \caption{Benzene spectra with laser at $90^{\circ}$ and polarizer at $90^{\circ}$}
     \label{fig:benzene_90_90}
 \end{figure}
-
+% }}}2
+% unknown spectra {{{2
 \subsection{Unknown sample Spectra}
 Figures \ref{fig:unknown_1} and \ref{fig:unknown_2} show the spectra recorded for two samples whose content was not known in advance.
 
@@ -564,8 +568,8 @@ Figures \ref{fig:unknown_1} and \ref{fig:unknown_2} show the spectra recorded fo
     \caption{Spectra of \textit{unknown sample 2}}
     \label{fig:unknown_2}
 \end{figure}
-
-
+% }}}2
+% Ethanol {{{2
 \subsection{Ethanol concentration of an unknown sample}
 
 Spectra of multiple samples with known ratios of ethanol and destilled water were recorded during the experiment and are shown in figures \ref{fig:water}, \ref{fig:ethanol_50}, \ref{fig:ethanol_75}, and \ref{fig:ethanol_100}.
@@ -599,8 +603,10 @@ Spectra of multiple samples with known ratios of ethanol and destilled water wer
     \caption{Spectra of ethanol at $100\%$}
     \label{fig:ethanol_100}
 \end{figure}
-
+% }}}2
+% FITS {{{2
 \subsection{Fit of relevant peaks}
+%%%%%%%%%%%%%%%%%%%%CCL4%%%%%%%%
 \subsubsection{CCL4}
 %BIG PEAK
 \begin{figure}[H]
@@ -648,6 +654,31 @@ Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & FWHM (cm$^{-1}$) & $R^2$ \\
 \end{table}
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots/fermi_resonance.png}
+    \caption{Fit for fermi resonance}
+    \label{fig:ccl4_fermi}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rllllll}
+\toprule
+Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+780 & Gaussian & 791.1 $\pm$ 1.2 & 28.3 & 0.9212 \\
+830 & Gaussian & 835.5 $\pm$ 4.5 & 105.5 & 0.9212 \\
+780 & Lorentzian & 792.9 $\pm$ 1.2 & 33.6 & 0.9179 \\
+830 & Lorentzian & 845.1 $\pm$ 4.4 & 121.5 & 0.9179 \\
+780 & Voigt & 791.6 $\pm$ 1.4 & 41.6 & 0.9215 \\
+830 & Voigt & 843.5 $\pm$ 4.6 & 65.7 & 0.9215 \\
+\bottomrule
+\end{tabular}
+\caption{Fit parameters for the twin peaks $\SI{245}{\cm^{-1}}$ and $\SI{332}{\cm^{-1}}$ Raman peak.}
+\end{table}
+
+
+%%%%%%%%%%%%%%BENZENE%%%%%%%%%%%%%%%%%%
 \subsubsection{Benzene}
 \begin{figure}[H]
     \centering
@@ -668,12 +699,60 @@ Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$
 \end{tabular}
 \caption{Fit parameters for the Benzene $\SI{1035}{\cm^{-1}}$ Raman peak.}
 \end{table}
-
-
+% }}}2
+% }}}1
+% Discussion {{{
 \section{Discussion}
 \subsection{CCl4}
+Taking a closer look at the CCL4 spectra above, notice that not all of the laser/analyzer configurations yield expected results. If we consider exclusively the sample and the relative orientation of the incident polarization and analyzer, we would expect a simmetrical behavior of the experiment configurations. CCL4 has totally symmetric $A$ modes and non-symmetric $F$ modes.
+
+If we simplify the experiment to two orthogonal polarization directions $x$ and $y$, we can think of the experiment yielding symmetric results as in table \ref{tab:ccl4_polarization}. This is however not the case. In reality, the experiment doesn't yield the expected symmetry but instead the ones shown in table \ref{tab:ccl4_polarization_real}.
+
+Give that CCL4 is an isotropic sample, there is no molecular reason for this to dissapear while the other survives. The most likely explanation is that the optical system has an additional polarization-dependent transmission/collection effect. As already mentioned, the monochromator used in the experiment has a different response to the orientation of light. This conbined with an improper optical aligment is one likely explanation as to why we cannnot resolve the lines with the analizer at the $0^{\circ}$ degrees configuration.
+\begin{table}[H]
+    \centering
+    \caption{Idealized polarization dependence of Raman scattering in an isotropic
+    $\mathrm{CCl_4}$ sample. The $A_1$ mode produces polarized scattering,
+    while the $F_2$ modes produce depolarized scattering.}
+    \label{tab:ccl4_polarization}
+    \begin{tabular}{c|cc}
+        & \multicolumn{2}{c}{Analyzer polarization} \\
+        Laser polarization & $0^\circ$ & $90^\circ$ \\
+        \hline
+        $0^\circ$  & $A_1$ & $F_2$ \\
+        $90^\circ$ & $F_2$ & $A_1$ \\
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Results of the experiment}
+    \label{tab:ccl4_polarization_real}
+    \begin{tabular}{c|cc}
+        & \multicolumn{2}{c}{Analyzer polarization} \\
+        Laser polarization & $0^\circ$ & $90^\circ$ \\
+        \hline
+        $0^\circ$  & noise & $F_2$ \\
+        $90^\circ$ & noise & $A_1$ \\
+    \end{tabular}
+\end{table}
+To discuss the number of frencuency shifts in our spectra, it's relevant to explain the molecular structure of CCL4 and its possible vibrational modes. A very didactic animation can be found on \cite{chalmers}(\href{https://fy.chalmers.se/OLDUSERS/brodin/MolecularMotions/CCl4modes.html}{click here}). A diagram is also sketched for those who are not reading this report on an e-device.
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{plots/modes.png}
+    \caption{Vibrational modes of Carbon tetrachloride. Adapted from \cite{chalmers}}
+    \label{fig:ccl4_modes}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{plots/Spectra_modes.png}
+    \caption{Raman peaks corresponding to vibrational modes. Adapted from \cite{chalmers}}
+    \label{fig:ccl4_peaks}
+\end{figure}
+
+Each of these vibrational modes influences the amount of lines seen in the raman spectra.
 \subsection{Benzene}
 \subsection{CCL4 and Benzene}
 
@@ -790,12 +869,14 @@ We conclude this discussion suggesting that narrowing down the sample would've b
 \subsection{Determination of the ethanol concentration of an unknown sample}
 
 Upon further inspection, we notice that all of the ethanol samples (Figures \ref{fig:water} to \ref{fig:ethanol_100}) show no clear correlation between peak intensities or position. It is unclear how to proceed to make this four spectra a ruler for ethanol concentration in unknown samples. Adding the fact that most likely our unknown spectra is heavily shifted, we opted to avoid making poorly-founded calculations of ethanol concentration.
+% }}}
+% References printout {{{
 \nocite{*}
 \newpage
 % ============================================================
 
 \bibliographystyle{unsrtnat}
 \bibliography{references}
-
+% }}}
 \end{document}
 

@@ -3,47 +3,48 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
+Warning--empty year in chalmers
 Warning--empty journal in NIST
 Warning--there's a number but no volume in NIST
-You've used 6 entries,
+You've used 7 entries,
             2481 wiz_defined-function locations,
-            591 strings with 5328 characters,
-and the built_in function-call counts, 1609 in all, are:
-= -- 145
-> -- 35
-< -- 5
-+ -- 22
-- -- 10
-* -- 84
-:= -- 253
-add.period$ -- 23
-call.type$ -- 6
-change.case$ -- 10
-chr.to.int$ -- 6
-cite$ -- 8
-duplicate$ -- 95
-empty$ -- 176
-format.name$ -- 15
-if$ -- 347
+            596 strings with 5483 characters,
+and the built_in function-call counts, 1871 in all, are:
+= -- 168
+> -- 42
+< -- 6
++ -- 26
+- -- 12
+* -- 93
+:= -- 293
+add.period$ -- 27
+call.type$ -- 7
+change.case$ -- 12
+chr.to.int$ -- 7
+cite$ -- 10
+duplicate$ -- 109
+empty$ -- 206
+format.name$ -- 18
+if$ -- 405
 int.to.chr$ -- 1
-int.to.str$ -- 7
+int.to.str$ -- 8
 missing$ -- 3
-newline$ -- 43
-num.names$ -- 15
-pop$ -- 63
+newline$ -- 49
+num.names$ -- 18
+pop$ -- 78
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 7
 quote$ -- 0
-skip$ -- 61
+skip$ -- 69
 stack$ -- 0
-substring$ -- 13
-swap$ -- 14
+substring$ -- 15
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 1
 top$ -- 0
-type$ -- 39
-warning$ -- 2
-while$ -- 10
+type$ -- 46
+warning$ -- 3
+while$ -- 12
 width$ -- 0
-write$ -- 90
-(There were 2 warnings)
+write$ -- 103
+(There were 3 warnings)

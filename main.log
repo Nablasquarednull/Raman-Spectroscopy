@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  23 SEP 2026 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  23 SEP 2026 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -631,7 +631,7 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 79.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 80.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
@@ -640,24 +640,24 @@ File: l3backend-pdftex.def 2026-08-10 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -716,13 +716,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 79.
-Package microtype Info: Applying patch `item' on input line 79.
-Package microtype Info: Applying patch `toc' on input line 79.
-Package microtype Info: Applying patch `eqnum' on input line 79.
-Package microtype Info: Applying patch `footnote' on input line 79.
-Package microtype Info: Applying patch `verbatim' on input line 79.
-LaTeX Info: Redefining \microtypesetup on input line 79.
+LaTeX Info: Redefining \microtypecontext on input line 80.
+Package microtype Info: Applying patch `item' on input line 80.
+Package microtype Info: Applying patch `toc' on input line 80.
+Package microtype Info: Applying patch `eqnum' on input line 80.
+Package microtype Info: Applying patch `footnote' on input line 80.
+Package microtype Info: Applying patch `verbatim' on input line 80.
+LaTeX Info: Redefining \microtypesetup on input line 80.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -736,40 +736,40 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 80.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 93.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 94.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 93.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 94.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 93.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 94.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 93.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 94.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 93.
+(Font)              <10.95> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 93.
+(Font)              <8> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 93.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+(Font)              <6> on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -778,7 +778,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <energy_levels.pdf, id=134, 639.89063pt x 489.32813pt>
 File: energy_levels.pdf Graphic file (type pdf)
 <use energy_levels.pdf>
-Package pdftex.def Info: energy_levels.pdf  used on input line 101.
+Package pdftex.def Info: energy_levels.pdf  used on input line 102.
 (pdftex.def)             Requested size: 318.66948pt x 243.69281pt.
  [1
 
@@ -786,170 +786,187 @@ Package pdftex.def Info: energy_levels.pdf  used on input line 101.
 <lockin.pdf, id=181, 731.59824pt x 282.32727pt>
 File: lockin.pdf Graphic file (type pdf)
 <use lockin.pdf>
-Package pdftex.def Info: lockin.pdf  used on input line 130.
+Package pdftex.def Info: lockin.pdf  used on input line 131.
 (pdftex.def)             Requested size: 318.66948pt x 122.97507pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 177.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 178.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./lockin.pdf>] [4]
 <polarized.jpg, id=248, 728.2407pt x 797.379pt>
 File: polarized.jpg Graphic file (type jpg)
 <use polarized.jpg>
-Package pdftex.def Info: polarized.jpg  used on input line 351.
+Package pdftex.def Info: polarized.jpg  used on input line 353.
 (pdftex.def)             Requested size: 227.62206pt x 249.22899pt.
  [5]
 <horizontal_raw.jpg, id=261, 256.96pt x 192.72pt>
 File: horizontal_raw.jpg Graphic file (type jpg)
 <use horizontal_raw.jpg>
-Package pdftex.def Info: horizontal_raw.jpg  used on input line 363.
+Package pdftex.def Info: horizontal_raw.jpg  used on input line 365.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
 <vertical_raw.jpg, id=262, 256.96pt x 192.72pt>
 File: vertical_raw.jpg Graphic file (type jpg)
 <use vertical_raw.jpg>
-Package pdftex.def Info: vertical_raw.jpg  used on input line 369.
+Package pdftex.def Info: vertical_raw.jpg  used on input line 371.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
  [6 <./polarized.jpg> <./horizontal_raw.jpg>]
 <base.jpg, id=272, 256.96pt x 192.72pt>
 File: base.jpg Graphic file (type jpg)
 <use base.jpg>
-Package pdftex.def Info: base.jpg  used on input line 382.
+Package pdftex.def Info: base.jpg  used on input line 384.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
  [7 <./vertical_raw.jpg> <./base.jpg>]
 <setup.png, id=283, 839.135pt x 704.6325pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
-Package pdftex.def Info: setup.png  used on input line 411.
+Package pdftex.def Info: setup.png  used on input line 413.
 (pdftex.def)             Requested size: 318.66948pt x 267.59111pt.
 <filters.jpg, id=289, 3034.33624pt x 2486.28876pt>
 File: filters.jpg Graphic file (type jpg)
 <use filters.jpg>
-Package pdftex.def Info: filters.jpg  used on input line 421.
+Package pdftex.def Info: filters.jpg  used on input line 423.
 (pdftex.def)             Requested size: 318.66948pt x 261.08699pt.
  [8 <./setup.png>] [9 <./filters.jpg>]
 <lockin.jpg, id=309, 256.96pt x 192.72pt>
 File: lockin.jpg Graphic file (type jpg)
 <use lockin.jpg>
-Package pdftex.def Info: lockin.jpg  used on input line 453.
+Package pdftex.def Info: lockin.jpg  used on input line 455.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
 <horizontal_processed.jpg, id=314, 643.203pt x 390.258pt>
 File: horizontal_processed.jpg Graphic file (type jpg)
 <use horizontal_processed.jpg>
-Package pdftex.def Info: horizontal_processed.jpg  used on input line 469.
+Package pdftex.def Info: horizontal_processed.jpg  used on input line 472.
 (pdftex.def)             Requested size: 318.66948pt x 193.35396pt.
 <vertical_processed.jpg, id=315, 642.9621pt x 390.258pt>
 File: vertical_processed.jpg Graphic file (type jpg)
 <use vertical_processed.jpg>
-Package pdftex.def Info: vertical_processed.jpg  used on input line 475.
+Package pdftex.def Info: vertical_processed.jpg  used on input line 478.
 (pdftex.def)             Requested size: 318.66948pt x 193.42542pt.
  [10 <./lockin.jpg>]
 <base_processed.jpg, id=324, 642.9621pt x 390.258pt>
 File: base_processed.jpg Graphic file (type jpg)
 <use base_processed.jpg>
-Package pdftex.def Info: base_processed.jpg  used on input line 482.
+Package pdftex.def Info: base_processed.jpg  used on input line 485.
 (pdftex.def)             Requested size: 318.66948pt x 193.42542pt.
  [11 <./horizontal_processed.jpg> <./vertical_processed.jpg> <./base_processed.jpg>]
 <plots/CCL4_0_0.png, id=332, 650.43pt x 397.485pt>
 File: plots/CCL4_0_0.png Graphic file (type png)
 <use plots/CCL4_0_0.png>
-Package pdftex.def Info: plots/CCL4_0_0.png  used on input line 495.
+Package pdftex.def Info: plots/CCL4_0_0.png  used on input line 499.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/CCL4_0_90.png, id=333, 650.43pt x 397.485pt>
 File: plots/CCL4_0_90.png Graphic file (type png)
 <use plots/CCL4_0_90.png>
-Package pdftex.def Info: plots/CCL4_0_90.png  used on input line 502.
+Package pdftex.def Info: plots/CCL4_0_90.png  used on input line 506.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/CCL4_90_0.png, id=334, 650.43pt x 397.485pt>
 File: plots/CCL4_90_0.png Graphic file (type png)
 <use plots/CCL4_90_0.png>
-Package pdftex.def Info: plots/CCL4_90_0.png  used on input line 509.
+Package pdftex.def Info: plots/CCL4_90_0.png  used on input line 513.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [12 <./plots/CCL4_0_0.png> <./plots/CCL4_0_90.png>]
 <plots/CCL4_90_90.png, id=343, 650.43pt x 397.485pt>
 File: plots/CCL4_90_90.png Graphic file (type png)
 <use plots/CCL4_90_90.png>
-Package pdftex.def Info: plots/CCL4_90_90.png  used on input line 516.
+Package pdftex.def Info: plots/CCL4_90_90.png  used on input line 520.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/benzene_0_0.png, id=344, 650.43pt x 397.485pt>
 File: plots/benzene_0_0.png Graphic file (type png)
 <use plots/benzene_0_0.png>
-Package pdftex.def Info: plots/benzene_0_0.png  used on input line 525.
+Package pdftex.def Info: plots/benzene_0_0.png  used on input line 528.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/benzene_0_90.png, id=345, 650.43pt x 397.485pt>
 File: plots/benzene_0_90.png Graphic file (type png)
 <use plots/benzene_0_90.png>
-Package pdftex.def Info: plots/benzene_0_90.png  used on input line 532.
+Package pdftex.def Info: plots/benzene_0_90.png  used on input line 535.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [13 <./plots/CCL4_90_0.png> <./plots/CCL4_90_90.png> <./plots/benzene_0_0.png>]
 <plots/benzene_90_0.png, id=357, 650.43pt x 397.485pt>
 File: plots/benzene_90_0.png Graphic file (type png)
 <use plots/benzene_90_0.png>
-Package pdftex.def Info: plots/benzene_90_0.png  used on input line 539.
+Package pdftex.def Info: plots/benzene_90_0.png  used on input line 542.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/benzene_90_90.png, id=358, 650.43pt x 397.485pt>
 File: plots/benzene_90_90.png Graphic file (type png)
 <use plots/benzene_90_90.png>
-Package pdftex.def Info: plots/benzene_90_90.png  used on input line 546.
+Package pdftex.def Info: plots/benzene_90_90.png  used on input line 549.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/unknown_1.png, id=361, 650.43pt x 397.485pt>
 File: plots/unknown_1.png Graphic file (type png)
 <use plots/unknown_1.png>
-Package pdftex.def Info: plots/unknown_1.png  used on input line 556.
+Package pdftex.def Info: plots/unknown_1.png  used on input line 560.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [14 <./plots/benzene_0_90.png> <./plots/benzene_90_0.png> <./plots/benzene_90_90.png>]
 <plots/unknown_2.png, id=372, 650.43pt x 397.485pt>
 File: plots/unknown_2.png Graphic file (type png)
 <use plots/unknown_2.png>
-Package pdftex.def Info: plots/unknown_2.png  used on input line 563.
+Package pdftex.def Info: plots/unknown_2.png  used on input line 567.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/water.png, id=377, 650.43pt x 397.485pt>
 File: plots/water.png Graphic file (type png)
 <use plots/water.png>
-Package pdftex.def Info: plots/water.png  used on input line 577.
+Package pdftex.def Info: plots/water.png  used on input line 581.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [15 <./plots/unknown_1.png> <./plots/unknown_2.png>]
 <plots/ethanol_50.png, id=390, 650.43pt x 397.485pt>
 File: plots/ethanol_50.png Graphic file (type png)
 <use plots/ethanol_50.png>
-Package pdftex.def Info: plots/ethanol_50.png  used on input line 584.
+Package pdftex.def Info: plots/ethanol_50.png  used on input line 588.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/ethanol_75.png, id=391, 650.43pt x 397.485pt>
 File: plots/ethanol_75.png Graphic file (type png)
 <use plots/ethanol_75.png>
-Package pdftex.def Info: plots/ethanol_75.png  used on input line 591.
+Package pdftex.def Info: plots/ethanol_75.png  used on input line 595.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
 <plots/ethanol_100.png, id=392, 650.43pt x 397.485pt>
 File: plots/ethanol_100.png Graphic file (type png)
 <use plots/ethanol_100.png>
-Package pdftex.def Info: plots/ethanol_100.png  used on input line 598.
+Package pdftex.def Info: plots/ethanol_100.png  used on input line 602.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [16 <./plots/water.png> <./plots/ethanol_50.png> <./plots/ethanol_75.png>]
 <plots/CCL4_458.png, id=400, 650.43pt x 397.485pt>
 File: plots/CCL4_458.png Graphic file (type png)
 <use plots/CCL4_458.png>
-Package pdftex.def Info: plots/CCL4_458.png  used on input line 608.
+Package pdftex.def Info: plots/CCL4_458.png  used on input line 614.
 (pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
 <plots/dual_peak.png, id=401, 650.43pt x 397.485pt>
 File: plots/dual_peak.png Graphic file (type png)
 <use plots/dual_peak.png>
-Package pdftex.def Info: plots/dual_peak.png  used on input line 629.
+Package pdftex.def Info: plots/dual_peak.png  used on input line 635.
 (pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
  [17 <./plots/ethanol_100.png> <./plots/CCL4_458.png>]
-<plots/Benzene_991.png, id=410, 650.43pt x 397.485pt>
+<plots/fermi_resonance.png, id=410, 650.43pt x 397.485pt>
+File: plots/fermi_resonance.png Graphic file (type png)
+<use plots/fermi_resonance.png>
+Package pdftex.def Info: plots/fermi_resonance.png  used on input line 659.
+(pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
+ [18 <./plots/dual_peak.png>]
+<plots/Benzene_991.png, id=418, 650.43pt x 397.485pt>
 File: plots/Benzene_991.png Graphic file (type png)
 <use plots/Benzene_991.png>
-Package pdftex.def Info: plots/Benzene_991.png  used on input line 654.
+Package pdftex.def Info: plots/Benzene_991.png  used on input line 685.
 (pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
- [18 <./plots/dual_peak.png>] [19 <./plots/Benzene_991.png>]
-Overfull \hbox (31.5471pt too wide) in paragraph at lines 696--719
+ [19 <./plots/fermi_resonance.png>] [20 <./plots/Benzene_991.png>]
+<plots/modes.png, id=440, 504.88625pt x 557.08125pt>
+File: plots/modes.png Graphic file (type png)
+<use plots/modes.png>
+Package pdftex.def Info: plots/modes.png  used on input line 744.
+(pdftex.def)             Requested size: 273.14923pt x 301.38892pt.
+<plots/Spectra_modes.png, id=443, 1199.48125pt x 1081.03876pt>
+File: plots/Spectra_modes.png Graphic file (type png)
+<use plots/Spectra_modes.png>
+Package pdftex.def Info: plots/Spectra_modes.png  used on input line 750.
+(pdftex.def)             Requested size: 273.14923pt x 246.17589pt.
+ [21 <./plots/modes.png>]
+Overfull \hbox (31.5471pt too wide) in paragraph at lines 775--798
  [][] 
  []
 
 
-Overfull \hbox (0.79521pt too wide) in paragraph at lines 724--759
+Overfull \hbox (0.79521pt too wide) in paragraph at lines 803--838
  [][] 
  []
 
-[20] [21] (./main.bbl
+[22 <./plots/Spectra_modes.png>] [23] [24] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 14.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -958,7 +975,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [22] (./main.aux)
+) [25] (./main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
@@ -967,18 +984,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F7AE96D776673B11C4506D703EBAC00C;5294.
  ) 
 Here is how much of TeX's memory you used:
- 30889 strings out of 468580
- 628385 string characters out of 5444080
- 1016329 words of memory out of 5000000
- 59303 multiletter control sequences out of 15000+600000
+ 30928 strings out of 468580
+ 629250 string characters out of 5444080
+ 1016885 words of memory out of 5000000
+ 59332 multiletter control sequences out of 15000+600000
  693666 words of font info for 159 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  106i,10n,118p,1001b,1065s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (22 pages, 7712486 bytes).
+Output written on main.pdf (25 pages, 7924719 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
- 117 named destinations out of 1000 (max. 500000)
- 37782 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 37797 words of extra memory for PDF output out of 42996 (max. 10000000)
 
