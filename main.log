@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  23 SEP 2026 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.21)  24 SEP 2026 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,7 +775,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<energy_levels.pdf, id=134, 639.89063pt x 489.32813pt>
+<energy_levels.pdf, id=138, 639.89063pt x 489.32813pt>
 File: energy_levels.pdf Graphic file (type pdf)
 <use energy_levels.pdf>
 Package pdftex.def Info: energy_levels.pdf  used on input line 102.
@@ -783,7 +783,7 @@ Package pdftex.def Info: energy_levels.pdf  used on input line 102.
  [1
 
 {/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}] [2{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./energy_levels.pdf>]
-<lockin.pdf, id=181, 731.59824pt x 282.32727pt>
+<lockin.pdf, id=185, 731.59824pt x 282.32727pt>
 File: lockin.pdf Graphic file (type pdf)
 <use lockin.pdf>
 Package pdftex.def Info: lockin.pdf  used on input line 131.
@@ -792,181 +792,177 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 17
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./lockin.pdf>] [4]
-<polarized.jpg, id=248, 728.2407pt x 797.379pt>
+<polarized.jpg, id=252, 728.2407pt x 797.379pt>
 File: polarized.jpg Graphic file (type jpg)
 <use polarized.jpg>
 Package pdftex.def Info: polarized.jpg  used on input line 353.
 (pdftex.def)             Requested size: 227.62206pt x 249.22899pt.
  [5]
-<horizontal_raw.jpg, id=261, 256.96pt x 192.72pt>
+<horizontal_raw.jpg, id=265, 256.96pt x 192.72pt>
 File: horizontal_raw.jpg Graphic file (type jpg)
 <use horizontal_raw.jpg>
 Package pdftex.def Info: horizontal_raw.jpg  used on input line 365.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
-<vertical_raw.jpg, id=262, 256.96pt x 192.72pt>
+<vertical_raw.jpg, id=266, 256.96pt x 192.72pt>
 File: vertical_raw.jpg Graphic file (type jpg)
 <use vertical_raw.jpg>
 Package pdftex.def Info: vertical_raw.jpg  used on input line 371.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
  [6 <./polarized.jpg> <./horizontal_raw.jpg>]
-<base.jpg, id=272, 256.96pt x 192.72pt>
+<base.jpg, id=276, 256.96pt x 192.72pt>
 File: base.jpg Graphic file (type jpg)
 <use base.jpg>
 Package pdftex.def Info: base.jpg  used on input line 384.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
  [7 <./vertical_raw.jpg> <./base.jpg>]
-<setup.png, id=283, 839.135pt x 704.6325pt>
+<setup.png, id=287, 839.135pt x 704.6325pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
 Package pdftex.def Info: setup.png  used on input line 413.
 (pdftex.def)             Requested size: 318.66948pt x 267.59111pt.
-<filters.jpg, id=289, 3034.33624pt x 2486.28876pt>
+<filters.jpg, id=293, 3034.33624pt x 2486.28876pt>
 File: filters.jpg Graphic file (type jpg)
 <use filters.jpg>
 Package pdftex.def Info: filters.jpg  used on input line 423.
 (pdftex.def)             Requested size: 318.66948pt x 261.08699pt.
  [8 <./setup.png>] [9 <./filters.jpg>]
-<lockin.jpg, id=309, 256.96pt x 192.72pt>
+<lockin.jpg, id=313, 256.96pt x 192.72pt>
 File: lockin.jpg Graphic file (type jpg)
 <use lockin.jpg>
 Package pdftex.def Info: lockin.jpg  used on input line 455.
 (pdftex.def)             Requested size: 318.66948pt x 239.0203pt.
-<horizontal_processed.jpg, id=314, 643.203pt x 390.258pt>
+<horizontal_processed.jpg, id=318, 643.203pt x 390.258pt>
 File: horizontal_processed.jpg Graphic file (type jpg)
 <use horizontal_processed.jpg>
 Package pdftex.def Info: horizontal_processed.jpg  used on input line 472.
 (pdftex.def)             Requested size: 318.66948pt x 193.35396pt.
-<vertical_processed.jpg, id=315, 642.9621pt x 390.258pt>
+<vertical_processed.jpg, id=319, 642.9621pt x 390.258pt>
 File: vertical_processed.jpg Graphic file (type jpg)
 <use vertical_processed.jpg>
 Package pdftex.def Info: vertical_processed.jpg  used on input line 478.
 (pdftex.def)             Requested size: 318.66948pt x 193.42542pt.
  [10 <./lockin.jpg>]
-<base_processed.jpg, id=324, 642.9621pt x 390.258pt>
+<base_processed.jpg, id=328, 642.9621pt x 390.258pt>
 File: base_processed.jpg Graphic file (type jpg)
 <use base_processed.jpg>
 Package pdftex.def Info: base_processed.jpg  used on input line 485.
 (pdftex.def)             Requested size: 318.66948pt x 193.42542pt.
  [11 <./horizontal_processed.jpg> <./vertical_processed.jpg> <./base_processed.jpg>]
-<plots/CCL4_0_0.png, id=332, 650.43pt x 397.485pt>
+<plots/CCL4_0_0.png, id=336, 650.43pt x 397.485pt>
 File: plots/CCL4_0_0.png Graphic file (type png)
 <use plots/CCL4_0_0.png>
 Package pdftex.def Info: plots/CCL4_0_0.png  used on input line 499.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/CCL4_0_90.png, id=333, 650.43pt x 397.485pt>
+<plots/CCL4_0_90.png, id=337, 650.43pt x 397.485pt>
 File: plots/CCL4_0_90.png Graphic file (type png)
 <use plots/CCL4_0_90.png>
 Package pdftex.def Info: plots/CCL4_0_90.png  used on input line 506.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/CCL4_90_0.png, id=334, 650.43pt x 397.485pt>
+<plots/CCL4_90_0.png, id=338, 650.43pt x 397.485pt>
 File: plots/CCL4_90_0.png Graphic file (type png)
 <use plots/CCL4_90_0.png>
 Package pdftex.def Info: plots/CCL4_90_0.png  used on input line 513.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [12 <./plots/CCL4_0_0.png> <./plots/CCL4_0_90.png>]
-<plots/CCL4_90_90.png, id=343, 650.43pt x 397.485pt>
+<plots/CCL4_90_90.png, id=347, 650.43pt x 397.485pt>
 File: plots/CCL4_90_90.png Graphic file (type png)
 <use plots/CCL4_90_90.png>
 Package pdftex.def Info: plots/CCL4_90_90.png  used on input line 520.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/benzene_0_0.png, id=344, 650.43pt x 397.485pt>
+<plots/benzene_0_0.png, id=348, 650.43pt x 397.485pt>
 File: plots/benzene_0_0.png Graphic file (type png)
 <use plots/benzene_0_0.png>
 Package pdftex.def Info: plots/benzene_0_0.png  used on input line 528.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/benzene_0_90.png, id=345, 650.43pt x 397.485pt>
+<plots/benzene_0_90.png, id=349, 650.43pt x 397.485pt>
 File: plots/benzene_0_90.png Graphic file (type png)
 <use plots/benzene_0_90.png>
 Package pdftex.def Info: plots/benzene_0_90.png  used on input line 535.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [13 <./plots/CCL4_90_0.png> <./plots/CCL4_90_90.png> <./plots/benzene_0_0.png>]
-<plots/benzene_90_0.png, id=357, 650.43pt x 397.485pt>
+<plots/benzene_90_0.png, id=361, 650.43pt x 397.485pt>
 File: plots/benzene_90_0.png Graphic file (type png)
 <use plots/benzene_90_0.png>
 Package pdftex.def Info: plots/benzene_90_0.png  used on input line 542.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/benzene_90_90.png, id=358, 650.43pt x 397.485pt>
+<plots/benzene_90_90.png, id=362, 650.43pt x 397.485pt>
 File: plots/benzene_90_90.png Graphic file (type png)
 <use plots/benzene_90_90.png>
 Package pdftex.def Info: plots/benzene_90_90.png  used on input line 549.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/unknown_1.png, id=361, 650.43pt x 397.485pt>
+<plots/unknown_1.png, id=365, 650.43pt x 397.485pt>
 File: plots/unknown_1.png Graphic file (type png)
 <use plots/unknown_1.png>
 Package pdftex.def Info: plots/unknown_1.png  used on input line 560.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [14 <./plots/benzene_0_90.png> <./plots/benzene_90_0.png> <./plots/benzene_90_90.png>]
-<plots/unknown_2.png, id=372, 650.43pt x 397.485pt>
+<plots/unknown_2.png, id=376, 650.43pt x 397.485pt>
 File: plots/unknown_2.png Graphic file (type png)
 <use plots/unknown_2.png>
 Package pdftex.def Info: plots/unknown_2.png  used on input line 567.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/water.png, id=377, 650.43pt x 397.485pt>
+<plots/water.png, id=381, 650.43pt x 397.485pt>
 File: plots/water.png Graphic file (type png)
 <use plots/water.png>
 Package pdftex.def Info: plots/water.png  used on input line 581.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [15 <./plots/unknown_1.png> <./plots/unknown_2.png>]
-<plots/ethanol_50.png, id=390, 650.43pt x 397.485pt>
+<plots/ethanol_50.png, id=394, 650.43pt x 397.485pt>
 File: plots/ethanol_50.png Graphic file (type png)
 <use plots/ethanol_50.png>
 Package pdftex.def Info: plots/ethanol_50.png  used on input line 588.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/ethanol_75.png, id=391, 650.43pt x 397.485pt>
+<plots/ethanol_75.png, id=395, 650.43pt x 397.485pt>
 File: plots/ethanol_75.png Graphic file (type png)
 <use plots/ethanol_75.png>
 Package pdftex.def Info: plots/ethanol_75.png  used on input line 595.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
-<plots/ethanol_100.png, id=392, 650.43pt x 397.485pt>
+<plots/ethanol_100.png, id=396, 650.43pt x 397.485pt>
 File: plots/ethanol_100.png Graphic file (type png)
 <use plots/ethanol_100.png>
 Package pdftex.def Info: plots/ethanol_100.png  used on input line 602.
 (pdftex.def)             Requested size: 318.66948pt x 194.74509pt.
  [16 <./plots/water.png> <./plots/ethanol_50.png> <./plots/ethanol_75.png>]
-<plots/CCL4_458.png, id=400, 650.43pt x 397.485pt>
+<plots/CCL4_458.png, id=404, 650.43pt x 397.485pt>
 File: plots/CCL4_458.png Graphic file (type png)
 <use plots/CCL4_458.png>
 Package pdftex.def Info: plots/CCL4_458.png  used on input line 614.
 (pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
-<plots/dual_peak.png, id=401, 650.43pt x 397.485pt>
+<plots/dual_peak.png, id=405, 650.43pt x 397.485pt>
 File: plots/dual_peak.png Graphic file (type png)
 <use plots/dual_peak.png>
 Package pdftex.def Info: plots/dual_peak.png  used on input line 635.
 (pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
  [17 <./plots/ethanol_100.png> <./plots/CCL4_458.png>]
-<plots/fermi_resonance.png, id=410, 650.43pt x 397.485pt>
+<plots/fermi_resonance.png, id=414, 650.43pt x 397.485pt>
 File: plots/fermi_resonance.png Graphic file (type png)
 <use plots/fermi_resonance.png>
 Package pdftex.def Info: plots/fermi_resonance.png  used on input line 659.
 (pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
  [18 <./plots/dual_peak.png>]
-<plots/Benzene_991.png, id=418, 650.43pt x 397.485pt>
+<plots/Benzene_991.png, id=422, 650.43pt x 397.485pt>
 File: plots/Benzene_991.png Graphic file (type png)
 <use plots/Benzene_991.png>
 Package pdftex.def Info: plots/Benzene_991.png  used on input line 685.
 (pdftex.def)             Requested size: 409.71692pt x 250.38654pt.
  [19 <./plots/fermi_resonance.png>] [20 <./plots/Benzene_991.png>]
-<plots/modes.png, id=440, 504.88625pt x 557.08125pt>
+<plots/modes.png, id=444, 504.88625pt x 557.08125pt>
 File: plots/modes.png Graphic file (type png)
 <use plots/modes.png>
 Package pdftex.def Info: plots/modes.png  used on input line 744.
 (pdftex.def)             Requested size: 273.14923pt x 301.38892pt.
-<plots/Spectra_modes.png, id=443, 1199.48125pt x 1081.03876pt>
+ [21 <./plots/modes.png>]
+<plots/Spectra_modes.png, id=457, 1199.48125pt x 1081.03876pt>
 File: plots/Spectra_modes.png Graphic file (type png)
 <use plots/Spectra_modes.png>
-Package pdftex.def Info: plots/Spectra_modes.png  used on input line 750.
+Package pdftex.def Info: plots/Spectra_modes.png  used on input line 759.
 (pdftex.def)             Requested size: 273.14923pt x 246.17589pt.
- [21 <./plots/modes.png>]
-Overfull \hbox (31.5471pt too wide) in paragraph at lines 775--798
- [][] 
- []
-
-
-Overfull \hbox (0.79521pt too wide) in paragraph at lines 803--838
- [][] 
- []
-
-[22 <./plots/Spectra_modes.png>] [23] [24] (./main.bbl
+<plots/CCL4_imposed.png, id=462, 650.43pt x 397.485pt>
+File: plots/CCL4_imposed.png Graphic file (type png)
+<use plots/CCL4_imposed.png>
+Package pdftex.def Info: plots/CCL4_imposed.png  used on input line 803.
+(pdftex.def)             Requested size: 364.19667pt x 222.57188pt.
+ [22 <./plots/Spectra_modes.png>] [23 <./plots/CCL4_imposed.png>] [24] [25] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 14.
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -975,27 +971,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [25] (./main.aux)
+) [26] (./main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F7AE96D776673B11C4506D703EBAC00C;5294.
+(rerunfilecheck)             Checksum: 292E2CCC5193FBA316E8CB443D91D164;5501.
  ) 
 Here is how much of TeX's memory you used:
- 30928 strings out of 468580
- 629250 string characters out of 5444080
- 1016885 words of memory out of 5000000
- 59332 multiletter control sequences out of 15000+600000
- 693666 words of font info for 159 fonts, out of 8000000 for 9000
+ 30940 strings out of 468580
+ 629546 string characters out of 5444080
+ 1014056 words of memory out of 5000000
+ 59342 multiletter control sequences out of 15000+600000
+ 693583 words of font info for 158 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  106i,10n,118p,1001b,1065s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (25 pages, 7924719 bytes).
+Output written on main.pdf (26 pages, 7984935 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 470 compressed objects within 5 object streams
- 127 named destinations out of 1000 (max. 500000)
- 37797 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 37810 words of extra memory for PDF output out of 42996 (max. 10000000)
 

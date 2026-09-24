@@ -701,7 +701,7 @@ Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$
 \end{table}
 % }}}2
 % }}}1
-% Discussion {{{
+% Discussion {{
 \section{Discussion}
 \subsection{CCl4}
 Taking a closer look at the CCL4 spectra above, notice that not all of the laser/analyzer configurations yield expected results. If we consider exclusively the sample and the relative orientation of the incident polarization and analyzer, we would expect a simmetrical behavior of the experiment configurations. CCL4 has totally symmetric $A$ modes and non-symmetric $F$ modes.
@@ -745,6 +745,15 @@ To discuss the number of frencuency shifts in our spectra, it's relevant to expl
     \caption{Vibrational modes of Carbon tetrachloride. Adapted from \cite{chalmers}}
     \label{fig:ccl4_modes}
 \end{figure}
+
+Each of these vibrational modes influences the amount of lines seen in the raman spectra.
+
+%%%REVIEW
+
+The vibrational modes of $\mathrm{CCl_4}$ can be classified according to the symmetry of the molecule, resulting in four distinct fundamental modes: $\nu_1(A_1)$, $\nu_2(E)$, $\nu_3(F_2)$, and $\nu_4(F_2)$.Consequently, four distinct fundamental vibrational frequencies are expected in the Raman spectrum, and are indeed seen in figure \ref{fig:CCL4_90_90}, although the peak corresponding to $\nu_{3}$ is barely perceptible in our measurements.
+
+Peak $\nu_{3}$ corresponds to a fermi resonance. Because of this, instead of observing a sigle peak, we see a double peak profile in figure \ref{fig:ccl4_peaks}. This is why the fit shown in figure \ref{fig:ccl4_fermi} accounts for a two peak fit, even if in our data this distinction is not percieved.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{plots/Spectra_modes.png}
@@ -752,30 +761,21 @@ To discuss the number of frencuency shifts in our spectra, it's relevant to expl
     \label{fig:ccl4_peaks}
 \end{figure}
 
-Each of these vibrational modes influences the amount of lines seen in the raman spectra.
-\subsection{Benzene}
-\subsection{CCL4 and Benzene}
 
-\subsubsection{peaks}
-Tables \ref{tab:ccl4_raman_comparison} and \ref{tab:benzene_raman_comparison} show the reported raman shifts according to  \cite{NIST} against the measured shifts in the experiment.
-
-For CCL4, we were able to record all but one of the modes reported in \cite{NIST}. This is likely because the denegerate stretch located at $\SI{761.7}{cm^{-1}}$ is close enough to $\SI{790.4}{cm^{-1}}$, and our aligment couldn't provide enough output in the photomultiplier channel to resolve efficiently this two peaks, but are instead hidden in one another's intensity. Another likely explanation was the sweep speed in our measurements. We opted for a sweep speed of \SI{1}{\nano\meter\per\second}. To resolve better the peaks, a lower sweep speed in combination with a better alignment would've been necessary.
 
 For tables \ref{tab:ccl4_raman_comparison} and \ref{tab:benzene_raman_comparison}, the following notation is useful: $C = 3 \sim 6\si{cm^{-1}}$,$E = 15 \sim 30 \si{cm^{-1}}$,
 
 
 As it is shown on the mentioned tables, our measurements are off by a few dozens of wavenumbers. Most likely the reference between the software/monochromator was not properly adjusted before the measurments. and hence a displacement of wavenumbers occured in our data.
 
-
-For Benzene, we were able to record only the most promiment peak, located at $\SI{991.6}{cm^{-1}}$. The rest of the peaks are labeled in the literature (see \cite{NIST}) as medium or low intensity peaks. As mentioned, our alignment was not providing a precise input scattered beam to the monochromator, so little intensity for the raman peaks of benzene was obtained.
-    \begin{table}[htbp]
+\begin{table}[htbp]
     \centering
     \caption{Literature and measured Raman bands of carbon tetrachloride ($\mathrm{CCl_4}$).}
     \label{tab:ccl4_raman_comparison}
     \begin{tabular}{cccccc}
         \hline
-        Symmetry & Mode & NIST Raman &
-        Uncertainty & Measured Raman & Deviation \\
+        Symmetry & Mode & NIST $\nu$ &
+        Uncertainty & Measured $\nu$ & Deviation \\
         & & \si{\per\centi\meter} & \si{\per\centi\meter} &
         \si{\per\centi\meter} & \si{\per\centi\meter} \\
         \hline
@@ -796,14 +796,50 @@ For Benzene, we were able to record only the most promiment peak, located at $\S
         \hline
     \end{tabular}
 \end{table}
+\subsubsection{polarization of CCL4 modes}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{plots/CCL4_imposed.png}
+    \caption{Horizontal and Perpendicular measurements superimposed}
+    \label{fig:ccl4_imposed}
+\end{figure}
+
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rlll}
+\toprule
+$\Delta\nu$ (cm$^{-1}$) & $I_\parallel$ (a.u.) & $I_\perp$ (a.u.) & $\rho$ \\
+\midrule
+231 & 0.0132 & 0.0112 & 0.851 \\
+332 & 0.0133 & 0.0104 & 0.778 \\
+490 & 0.0298 & 0.00378 & 0.127 \\
+798 & 0.00702 & 0.00658 & 0.937 \\
+\bottomrule
+\end{tabular}
+\caption{polarization ratios for the vibrational modes of CCL4}
+\label{tab:ccl4_pol}
+\end{table}
+Table \ref{tab:ccl4_pol} shows the calculated polarization ratios from the measurements taken. Our measurements are in agreement with the literature reported in \cite{NIST}. The only strongly polarized peak corresponds to the vibrational mode $\nu(A_1)$, since it corresponds to a diagonal entry in the raman polarization tensor of CCL4. The rest of the peaks $\nu_2$, $\nu_3$ and $\nu_3$ correspond to non-diagonal entries in the tensor, and are thus depolarized as seen in both figure \ref{fig:ccl4_imposed} and table \ref{tab:ccl4_pol}
+
+
+\subsection{Benzene}
+\subsection{CCL4 and Benzene}
+
+\subsubsection{peaks}
+Tables \ref{tab:ccl4_raman_comparison} and \ref{tab:benzene_raman_comparison} show the reported raman shifts according to  \cite{NIST} against the measured shifts in the experiment.
+
+FFor Benzene, we were able to record only the most promiment peak, located at $\SI{991.6}{cm^{-1}}$. The rest of the peaks are labeled in the literature (see \cite{NIST}) as medium or low intensity peaks. As mentioned, our alignment was not providing a precise input scattered beam to the monochromator, so little intensity for the raman peaks of benzene was obtained.
 \begin{table}[htbp]
     \centering
     \caption{Literature and measured Raman bands of Benzene ($\mathrm{C_6H_6}$)}
     \label{tab:benzene_raman_comparison}
     \begin{tabular}{cccccc}
         \hline
-        Symmetry & Mode & NIST Raman &
-        Uncertainty & Measured Raman & Deviation \\
+        Symmetry & Mode & NIST $\nu$ &
+        Uncertainty & Measured $\nu$ & Deviation \\
         & & \si{\per\centi\meter} & \si{\per\centi\meter} &
         \si{\per\centi\meter} & \si{\per\centi\meter} \\
         \hline

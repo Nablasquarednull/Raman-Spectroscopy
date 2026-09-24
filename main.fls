@@ -580,6 +580,11 @@ INPUT ./plots/Spectra_modes.png
 INPUT ./plots/Spectra_modes.png
 INPUT ./plots/Spectra_modes.png
 INPUT ./plots/Spectra_modes.png
+INPUT ./plots/CCL4_imposed.png
+INPUT ./plots/CCL4_imposed.png
+INPUT ./plots/CCL4_imposed.png
+INPUT ./plots/CCL4_imposed.png
+INPUT ./plots/CCL4_imposed.png
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
