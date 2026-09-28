@@ -463,7 +463,7 @@ Simply put, if $\alpha$ is small, the output responds quickly, but more noise ge
 
 % }}}
 % Results {{{1
-\section{Results}
+\section{Results and Discussion}
 % Calibration {{{2
 After processing the data by taking into account the servo response, both of the curves seen in  figures \ref{fig:horizontal_raw} and \ref{fig:vertical_raw} are now shown with the wavelength (\si{\nano\meter}) in figures \ref{fig:horizontal_processed} and \ref{fig:vertical_processed}
 
@@ -522,369 +522,8 @@ As suggested in  section \ref{sec:wavenumber}, all of the results are presented 
     \label{fig:CCL4_90_90}
 \end{figure}
 
-%--------------PEAKS CCL4-------------------%
-
-The following curve fits (figures \ref{fig:ccl4_458}, \ref{fig:ccl4_991} and  \ref{fig:ccl4_dual}) were done using the spectra from the measurement shown in figure \ref{fig:CCL4_90_90}.
-
-%BIG PEAK
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{plots/CCL4_458.png}
-    \caption{Fit for  Raman peak at $\SI{491.9}{\cm ^{-1}}$}
-    \label{fig:ccl4_458}
-\end{figure}
-\begin{table}[H]
-\centering
-\begin{tabular}{rllllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-491 & Gaussian & 492.0 ± 0.2 & 653.35 ±  0.01 & 58.2 & 0.9954 \\
-491 & Lorentzian & 491.4 ± 0.3 & 653.32 ±  0.01 & 61.8 & 0.9902 \\
-491 & Voigt & 491.9 ± 0.2 & 653.34 ±  0.01 & 58.8 & 0.9956 \\
-\bottomrule
-\end{tabular}
-\caption{Fit parameters for the $\SI{491.9}{\cm^{-1}}$ Raman peak.}
-\end{table}
-%TWIN PEAKS OR WHATEVER
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{plots/dual_peak.png}
-    \caption{Fit for  Raman peak at $\SI{491.9}{\cm ^{-1}}$}
-    \label{fig:ccl4_dual}
-\end{figure}
-\begin{table}[H]
-\centering
-\begin{tabular}{rllllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-245 & Gaussian & 246.2 $\pm$ 0.5 & 56.0 & 0.9838 \\
-332 & Gaussian & 339.0 $\pm$ 0.4 & 62.0 & 0.9838 \\
-245 & Lorentzian & 244.2 $\pm$ 0.5 & 56.1 & 0.9806 \\
-332 & Lorentzian & 340.5 $\pm$ 0.5 & 64.4 & 0.9806 \\
-245 & Voigt & 245.0 $\pm$ 0.6 & 52.4 & 0.9848 \\
-332 & Voigt & 338.7 $\pm$ 0.8 & 67.5 & 0.9848 \\
-\bottomrule
-\end{tabular}
-\caption{Fit parameters for the twin peaks $\SI{245}{\cm^{-1}}$ and $\SI{332}{\cm^{-1}}$ Raman peak.}
-\end{table}
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{plots/fermi_resonance.png}
-    \caption{Fit for fermi resonance}
-    \label{fig:ccl4_fermi}
-\end{figure}
-\begin{table}[H]
-\centering
-\begin{tabular}{rllllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-780 & Gaussian & 791.1 $\pm$ 1.2 & 28.3 & 0.9212 \\
-830 & Gaussian & 835.5 $\pm$ 4.5 & 105.5 & 0.9212 \\
-780 & Lorentzian & 792.9 $\pm$ 1.2 & 33.6 & 0.9179 \\
-830 & Lorentzian & 845.1 $\pm$ 4.4 & 121.5 & 0.9179 \\
-780 & Voigt & 791.6 $\pm$ 1.4 & 41.6 & 0.9215 \\
-830 & Voigt & 843.5 $\pm$ 4.6 & 65.7 & 0.9215 \\
-\bottomrule
-\end{tabular}
-\caption{Fit parameters for the twin peaks $\SI{245}{\cm^{-1}}$ and $\SI{332}{\cm^{-1}}$ Raman peak.}
-\end{table}
-
-
-\subsection{Spectra and fitting of Benzene}
-%----------------Benzene-----------------------%
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_stokes.png}
-    \caption{}
-    \label{fig:benzene_stokes}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_700.png}
-    \caption{}
-    \label{fig:fit_benzene_stokes_1}
-\end{figure}
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-688.000000 & Gaussian & 690.2 ± 0.8 & 661.92 ± 0.04 & 63.3 & 0.9539 \\
-688.000000 & Lorentzian & 689.4 ± 0.9 & 661.88 ± 0.04 & 80.6 & 0.9511 \\
-688.000000 & Voigt & 690.2 ± 0.9 & 661.92 ± 0.04 & 63.3 & 0.9539 \\
-\bottomrule
-\end{tabular}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_1000.png}
-    \caption{}
-    \label{fig:fit_benzene_stokes_2}
-\end{figure}
-
-
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-1068.000000 & Gaussian & 1067.2 ± 0.2 & 678.86 ± 0.01 & 49.2 & 0.9944 \\
-1068.000000 & Lorentzian & 1066.9 ± 0.1 & 678.85 ± 0.01 & 53.3 & 0.9978 \\
-1068.000000 & Voigt & 1066.9 ± 0.1 & 678.85 ± 0.01 & 52.2 & 0.9981 \\
-\bottomrule
-\end{tabular}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_1250.png}
-    \caption{}
-    \label{fig:fit_benzene_stokes_3}
-\end{figure}
-
-
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-1250.000000 & Gaussian & 1246.4 ± 0.5 & 687.22 ± 0.03 & 57.6 & 0.9692 \\
-1250.000000 & Lorentzian & 1246.1 ± 0.6 & 687.20 ± 0.03 & 68.8 & 0.9703 \\
-1250.000000 & Voigt & 1246.2 ± 0.6 & 687.21 ± 0.03 & 64.1 & 0.9709 \\
-\bottomrule
-\end{tabular}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_1650.png}
-    \caption{}
-    \label{fig:fit_benzene_stokes_4}
-\end{figure}
-
-
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-1650.000000 & Gaussian & 1650.8 ± 0.5 & 706.86 ± 0.03 & 54.2 & 0.9605 \\
-1650.000000 & Lorentzian & 1650.8 ± 0.6 & 706.86 ± 0.03 & 61.2 & 0.9587 \\
-1650.000000 & Voigt & 1650.8 ± 0.5 & 706.86 ± 0.03 & 54.9 & 0.9605 \\
-\bottomrule
-\end{tabular}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_3100.png}
-    \caption{}
-    \label{fig:fit_benzene_stokes_5}
-\end{figure}
-
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-3080.000000 & Gaussian & 3082.6 ± 0.3 & 786.46 ± 0.02 & 41.4 & 0.9847 \\
-3080.000000 & Lorentzian & 3082.6 ± 0.3 & 786.46 ± 0.02 & 47.0 & 0.9846 \\
-3080.000000 & Voigt & 3082.6 ± 0.3 & 786.46 ± 0.02 & 44.0 & 0.9857 \\
-\bottomrule
-\end{tabular}
-
-\subsubsection{Benzene antistokes}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_antistokes.png}
-    \caption{}
-    \label{fig:fit_benzene_antistokes_spectra}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/benzene_anti.png}
-    \caption{}
-    \label{fig:fit_benzene_antistokes_fit}
-\end{figure}
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
--950.000000 & Gaussian & -955.9 ± 0.3 & 596.89 ± 0.01 & 73.0 & 0.9826 \\
--950.000000 & Lorentzian & -954.8 ± 0.3 & 596.92 ± 0.01 & 87.1 & 0.9824 \\
--950.000000 & Voigt & -955.4 ± 0.3 & 596.90 ± 0.01 & 79.0 & 0.9835 \\
-\bottomrule
-\end{tabular}
-
-% }}}2
-% unknown spectra {{{2
-\subsection{Unknown sample Spectra}
-Figure \ref{fig:unknown_1} shows the spectra recorded for the sample whose content was not known in advance.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/unknown_stokes.png}
-    \caption{Spectra of \textit{unknown sample 1}.}
-    \label{fig:unknown_1}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/unknown_450.png}
-    \caption{Spectra of \textit{peak at \SI{450}{\centi\meter^{-1}}}.}
-    \label{fig:fit_unknown_1}
-\end{figure}
-
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-440.000000 & Gaussian & 440.1 ± 0.3 & 651.14 ± 0.01 & 67.2 & 0.9929 \\
-440.000000 & Lorentzian & 439.7 ± 0.4 & 651.12 ± 0.02 & 74.9 & 0.9889 \\
-440.000000 & Voigt & 440.1 ± 0.3 & 651.14 ± 0.01 & 67.9 & 0.9930 \\
-\bottomrule
-\end{tabular}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/unknown_950.png}
-    \caption{Fit for \textit{peak at \SI{950}{\centi\meter^{-1}}}.}
-    \label{fig:fit_unknown_2}
-\end{figure}
-
-
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-950.000000 & Gaussian & 953.5 ± 0.3 & 673.66 ± 0.01 & 49.2 & 0.9876 \\
-950.000000 & Lorentzian & 953.2 ± 0.3 & 673.64 ± 0.01 & 48.5 & 0.9852 \\
-950.000000 & Voigt & 953.4 ± 0.2 & 673.66 ± 0.01 & 49.0 & 0.9889 \\
-\bottomrule
-\end{tabular}
-% }}}2
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/unknown_1410.png}
-    \caption{Fit for \textit{peak at \SI{1410}{\centi\meter^{-1}}}.}
-    \label{fig:fit_unknown_3}
-\end{figure}
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-1410.000000 & Gaussian & 1404.0 ± 1.3 & 694.75 ± 0.06 & 91.8 & 0.8903 \\
-1410.000000 & Lorentzian & 1402.5 ± 1.0 & 694.67 ± 0.05 & 86.8 & 0.9146 \\
-1410.000000 & Voigt & 1402.5 ± 1.0 & 694.67 ± 0.05 & 86.8 & 0.9146 \\
-\bottomrule
-\end{tabular}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/unknown_2222.png}
-    \caption{Fit for \textit{peak at \SI{2226}{\centi\meter^{-1}}}.}
-    \label{fig:fit_unknown_4}
-\end{figure}
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-2226.000000 & Gaussian & 2226.5 ± 0.2 & 736.85 ± 0.01 & 40.2 & 0.9857 \\
-2226.000000 & Lorentzian & 2226.6 ± 0.2 & 736.86 ± 0.01 & 40.9 & 0.9905 \\
-2226.000000 & Voigt & 2226.6 ± 0.2 & 736.85 ± 0.01 & 40.5 & 0.9912 \\
-\bottomrule
-\end{tabular}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/unknown_2888.png}
-    \caption{Fit for \textit{peak at \SI{2888}{\centi\meter^{-1}}}.}
-    \label{fig:fit_unknown_5}
-\end{figure}
-
-
-\begin{tabular}{rlllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-2888.000000 & Gaussian & 2890.6 ± 0.3 & 774.76 ± 0.02 & 46.0 & 0.9718 \\
-2888.000000 & Lorentzian & 2890.3 ± 0.4 & 774.75 ± 0.02 & 47.2 & 0.9638 \\
-2888.000000 & Voigt & 2890.6 ± 0.3 & 774.76 ± 0.02 & 46.3 & 0.9727 \\
-\bottomrule
-\end{tabular}
-% Ethanol {{{2
-\subsection{Ethanol concentration of an unknown sample}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{plots/ethanol_calibration_curve.png}
-    \caption{}
-    \label{fig:integral}
-\end{figure}
-
-
-
-\begin{table}[H]
-  \centering
-  \caption{Ethanol Calibration Fit Results}
-  \label{tab:ethanol_calibration}
-  \begin{tabular}{cc}
-    \toprule
-    \textbf{Concentration (\%)} & \textbf{Integrated Area} \\
-    \midrule
-    25  & 1.2609 \\
-    50  & 1.1661 \\
-    75  & 1.2912 \\
-    100 & 1.5661 \\
-    \midrule
-    \multicolumn{2}{l}{\textbf{Linear Fit Statistics}} \\
-    \multicolumn{2}{l}{Equation: $\text{Area} = 0.0042 \times C + 1.0610$} \\
-    \multicolumn{2}{l}{$R^2 = 0.61135$} \\
-    \bottomrule
-  \end{tabular}
-\end{table}% }}}2
-% FITS {{{2
-\subsection{Fit of relevant peaks}
-%%%%%%%%%%%%%%%%%%%%CCL4%%%%%%%%
-\subsubsection{CCL4}
-
-%%%%%%%%%%%%%%BENZENE%%%%%%%%%%%%%%%%%%
-\subsubsection{Benzene}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{plots/Benzene_991.png}
-    \caption{Fit for  Raman peak at $\SI{1035}{\cm ^{-1}}$}
-    \label{fig:ccl4_991}
-\end{figure}
-\begin{table}[H]
-\centering
-\begin{tabular}{rllllll}
-\toprule
-Peak & Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
-\midrule
-1028 & Gaussian & 1035.1 ± 0.2 & 677.38 ±  0.01 & 53.8 & 0.9934 \\
-1028 & Lorentzian & 1034.7 ± 0.3 & 677.37 ±  0.01 & 51.4 & 0.9892 \\
-1028 & Voigt & 1035.0 ± 0.2 & 677.38 ±  0.01 & 53.2 & 0.9950 \\
-\bottomrule
-\end{tabular}
-\caption{Fit parameters for the Benzene $\SI{1035}{\cm^{-1}}$ Raman peak.}
-\end{table}
-% }}}2
-% }}}1
-% Discussion {{{
-\section{Discussion}
-\subsection{CCl4}
 Taking a closer look at the CCL4 spectra above, notice that not all of the laser/analyzer configurations yield expected results. If we consider exclusively the sample and the relative orientation of the incident polarization and analyzer, we would expect a simmetrical behavior of the experiment configurations. CCL4 has totally symmetric $A$ modes and non-symmetric $F$ modes.
 
 If we simplify the experiment to two orthogonal polarization directions $x$ and $y$, we can think of the experiment yielding symmetric results as in table \ref{tab:ccl4_polarization}. This is however not the case. In reality, the experiment doesn't yield the expected symmetry but instead the ones shown in table \ref{tab:ccl4_polarization_real}.
@@ -943,11 +582,92 @@ Peak $\nu_{3}$ corresponds to a fermi resonance. Because of this, instead of obs
 \end{figure}
 
 
+%--------------PEAKS CCL4-------------------%
+
+The following curve fits (figures \ref{fig:ccl4_458}, \ref{fig:ccl4_dual} and  \ref{fig:ccl4_fermi}) were done using the spectra from the measurement shown in figure \ref{fig:CCL4_90_90}.
+
+%BIG PEAK
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots/CCL4_458.png}
+    \caption{Fit for  Raman peak at $\SI{491.9}{\cm ^{-1}}$}
+    \label{fig:ccl4_458}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rllllll}
+\toprule
+ Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 492.0 ± 0.2 & 653.35 ±  0.01 & 58.2 & 0.9954 \\
+Lorentzian & 491.4 ± 0.3 & 653.32 ±  0.01 & 61.8 & 0.9902 \\
+Voigt & 491.9 ± 0.2 & 653.34 ±  0.01 & 58.8 & 0.9956 \\
+\bottomrule
+\end{tabular}
+\caption{Fit parameters for the $\SI{491.9}{\cm^{-1}}$ Raman peak.}
+\end{table}
+%TWIN PEAKS OR WHATEVER
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots/dual_peak.png}
+    \caption{Fit for the peaks $\sim \SI{245}{\cm^{-1}}$ and $ \sim \SI{332}{\cm^{-1}}$.}
+    \label{fig:ccl4_dual}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rllllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 246.2 $\pm$ 0.5 & 56.0 & 0.9838 \\
+Gaussian & 339.0 $\pm$ 0.4 & 62.0 & 0.9838 \\
+Lorentzian & 244.2 $\pm$ 0.5 & 56.1 & 0.9806 \\
+Lorentzian & 340.5 $\pm$ 0.5 & 64.4 & 0.9806 \\
+Voigt & 245.0 $\pm$ 0.6 & 52.4 & 0.9848 \\
+Voigt & 338.7 $\pm$ 0.8 & 67.5 & 0.9848 \\
+\bottomrule
+\end{tabular}
+\caption{Fit parameters for the twin peaks $\sim \SI{245}{\cm^{-1}}$ and $ \sim \SI{332}{\cm^{-1}}$ Raman peak.}
+\end{table}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{plots/fermi_resonance.png}
+    \caption{Fit for fermi resonance near $\sim \SI{800}{\cm^{-1}}$}
+    \label{fig:ccl4_fermi}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rllllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 791.1 $\pm$ 1.2 & 28.3 & 0.9212 \\
+Gaussian & 835.5 $\pm$ 4.5 & 105.5 & 0.9212 \\
+Lorentzian & 792.9 $\pm$ 1.2 & 33.6 & 0.9179 \\
+Lorentzian & 845.1 $\pm$ 4.4 & 121.5 & 0.9179 \\
+Voigt & 791.6 $\pm$ 1.4 & 41.6 & 0.9215 \\
+Voigt & 843.5 $\pm$ 4.6 & 65.7 & 0.9215 \\
+\bottomrule
+\end{tabular}
+\caption{Fit parameters for the twin peaks $\SI{245}{\cm^{-1}}$ and $\SI{332}{\cm^{-1}}$ Raman peak.}
+\end{table}
+
+
+The intrinsic line shape of a Raman transition is expected to be Lorentzian when the vibrational coherence decays exponentially due to finite lifetime. In an experimental spectrum, however, additional instrumental and inhomogeneous broadening can modify this line shape, resulting in Gaussian or Voigt profiles. For the fits seen in figures \ref{fig:ccl4_458}, \ref{fig:ccl4_dual} and  \ref{fig:ccl4_fermi}, the best approximation happens to be a Voigt profile, which corresponds to the convolution of the gaussian response of the instrument and the lorentzian raman profiles. This is a likely explanation as to why the $R^2$ value of the fits is maximized using a Voigt profile.
+
+
+\subsubsection{literature comparison of raman peaks: CCL4}
+
 
 For tables \ref{tab:ccl4_raman_comparison} and \ref{tab:benzene_raman_comparison}, the following notation is useful: $C = 3 \sim 6\si{cm^{-1}}$,$E = 15 \sim 30 \si{cm^{-1}}$,
 
 
-As it is shown on the mentioned tables, our measurements are off by a few dozens of wavenumbers. Most likely the reference between the software/monochromator was not properly adjusted before the measurments. and hence a displacement of wavenumbers occured in our data.
+As it is shown on table \ref{tab:ccl4_raman_comparison} , our measurements are off by a few dozens of wavenumbers. Most likely the reference between the software/monochromator was not properly adjusted before the measurments, and hence a displacement of wavenumbers occured in our data.
+
+The reported values in column \textit{Measured} $\nu$ in Table \ref{tab:ccl4_raman_comparison} takes into account the fits done previously.
 
 \begin{table}[htbp]
     \centering
@@ -961,22 +681,23 @@ As it is shown on the mentioned tables, our measurements are off by a few dozens
         \si{\per\centi\meter} & \si{\per\centi\meter} \\
         \hline
         $a_1$ & Symmetric stretch &
-        458.7 & C & 490.9 &  32.2 \\
+        458.7 & C & 491.9 &  32.2 \\
 
         $e$ & Degenerate deformation &
-        217.0 & C & 245.7 & 28.7 \\
+        217.0 & C & 245.0 & 28.7 \\
 
         $f_2$ & Degenerate stretch &
-        790.4 & E & 798.5 & 8.1 \\
+        790.4 & E & 843.5 & 53.1 \\
 
         $f_2$ & Degenerate stretch &
-        761.7 & E & -- & -- \\
+        761.7 & E & 791.6 & 29.9 \\
 
         $f_2$ & Degenerate deformation &
-        313.5 & C & 332.3 & 18.8 \\
+        313.5 & C & 338.7 & 18.8 \\
         \hline
     \end{tabular}
 \end{table}
+
 \subsubsection{polarization of CCL4 modes}
 
 \begin{figure}[H]
@@ -1006,16 +727,152 @@ $\Delta\nu$ (cm$^{-1}$) & $I_\parallel$ (a.u.) & $I_\perp$ (a.u.) & $\rho$ \\
 Table \ref{tab:ccl4_pol} shows the calculated polarization ratios from the measurements taken. Our measurements are in agreement with the literature reported in \cite{NIST}. The only strongly polarized peak corresponds to the vibrational mode $\nu(A_1)$, since it corresponds to a diagonal entry in the raman polarization tensor of CCL4. The rest of the peaks $\nu_2$, $\nu_3$ and $\nu_3$ correspond to non-diagonal entries in the tensor, and are thus depolarized as seen in both figure \ref{fig:ccl4_imposed} and table \ref{tab:ccl4_pol}
 
 
-\subsection{Benzene}
 
-\subsubsection{peaks}
-Tables \ref{tab:ccl4_raman_comparison} and \ref{tab:benzene_raman_comparison} show the reported raman shifts according to  \cite{NIST} against the measured shifts in the experiment.
-
-FFor Benzene, we were able to record only the most promiment peak, located at $\SI{991.6}{cm^{-1}}$. The rest of the peaks are labeled in the literature (see \cite{NIST}) as medium or low intensity peaks. As mentioned, our alignment was not providing a precise input scattered beam to the monochromator, so little intensity for the raman peaks of benzene was obtained.
-\begin{table}[htbp]
+\subsection{Spectra and fitting of Benzene}
+%----------------Benzene-----------------------%
+Due to technical issues during the original measurement, the data acquired during the experiment could not be used for the subsequent analysis. Therefore, the analysis was performed using experimental data provided by the experiment supervisor Dennis Leonard, which were acquired under the corresponding experimental conditions.
+\begin{figure}[H]
     \centering
-    \caption{Literature and measured Raman bands of Benzene ($\mathrm{C_6H_6}$)}
-    \label{tab:benzene_raman_comparison}
+    \includegraphics[width=0.7\textwidth]{plots/benzene_stokes.png}
+    \caption{Stokes spectra of Benzene. Data provided by Dennis Leonard.}
+    \label{fig:benzene_stokes}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/benzene_700.png}
+    \caption{Fit for peak $\sim \SI{690.21}{\centi\meter^{-1}}$}
+    \label{fig:fit_benzene_stokes_1}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+ Gaussian & 690.2 ± 0.8 & 661.92 ± 0.04 & 63.3 & 0.9539 \\
+Lorentzian & 689.4 ± 0.9 & 661.88 ± 0.04 & 80.6 & 0.9511 \\
+Voigt & 690.2 ± 0.9 & 661.92 ± 0.04 & 63.3 & 0.9539 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/benzene_1000.png}
+    \caption{Fit for peak at $\sim \SI{1066.94}{\centi\meter^{-1}}$}
+    \label{fig:fit_benzene_stokes_2}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 1067.2 ± 0.2 & 678.86 ± 0.01 & 49.2 & 0.9944 \\
+Lorentzian & 1066.9 ± 0.1 & 678.85 ± 0.01 & 53.3 & 0.9978 \\
+Voigt & 1066.9 ± 0.1 & 678.85 ± 0.01 & 52.2 & 0.9981 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/benzene_1250.png}
+    \caption{Fit for peak at $\sim \SI{1246.16}{\centi\meter^{-1}}$}
+    \label{fig:fit_benzene_stokes_3}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 1246.4 ± 0.5 & 687.22 ± 0.03 & 57.6 & 0.9692 \\
+Lorentzian & 1246.1 ± 0.6 & 687.20 ± 0.03 & 68.8 & 0.9703 \\
+Voigt & 1246.2 ± 0.6 & 687.21 ± 0.03 & 64.1 & 0.9709 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/benzene_1650.png}
+    \caption{Fit for peak at $\sim \SI{1650}{\centi\meter^{-1}}$}
+    \label{fig:fit_benzene_stokes_4}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 1650.8 ± 0.5 & 706.86 ± 0.03 & 54.2 & 0.9605 \\
+Lorentzian & 1650.8 ± 0.6 & 706.86 ± 0.03 & 61.2 & 0.9587 \\
+Voigt & 1650.8 ± 0.5 & 706.86 ± 0.03 & 54.9 & 0.9605 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/benzene_3100.png}
+    \caption{Fit for peak at $\sim \SI{3082}{\centi\meter^{-1}}$}
+    \label{fig:fit_benzene_stokes_5}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 3082.6 ± 0.3 & 786.46 ± 0.02 & 41.4 & 0.9847 \\
+Lorentzian & 3082.6 ± 0.3 & 786.46 ± 0.02 & 47.0 & 0.9846 \\
+Voigt & 3082.6 ± 0.3 & 786.46 ± 0.02 & 44.0 & 0.9857 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Benzene antistokes}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/benzene_antistokes.png}
+    \caption{Antistokes spectrum of Benzene. Data provided by Dennis Leonard}
+    \label{fig:fit_benzene_antistokes_spectra}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/benzene_anti.png}
+    \caption{Fit for peak at $\sim \SI{-955}{\centi\meter^{-1}}$}
+    \label{fig:fit_benzene_antistokes_fit}
+\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & -955.9 ± 0.3 & 596.89 ± 0.01 & 73.0 & 0.9826 \\
+Lorentzian & -954.8 ± 0.3 & 596.92 ± 0.01 & 87.1 & 0.9824 \\
+Voigt & -955.4 ± 0.3 & 596.90 ± 0.01 & 79.0 & 0.9835 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The spectrum seen in figure \ref{fig:fit_benzene_antistokes_spectra} shows only the strongest of the peaks seen in the stokes regime. This is likely because at room temperature, most of the molecules are at the lowest vibrational state, and thus little anti-stokes transitions can occur.
+
+ The comparison between the reported values of Benzene transitions and the measured ones is shown in table \ref{tab:benzene_raman_comparison}.
+
+\begin{table}[H]
+    \centering
     \begin{tabular}{cccccc}
         \hline
         Symmetry & Mode & NIST $\nu$ &
@@ -1024,71 +881,269 @@ FFor Benzene, we were able to record only the most promiment peak, located at $\
         \si{\per\centi\meter} & \si{\per\centi\meter} \\
         \hline
         $a_{1g}$ & CH stretch &
-        3061.9 & C & -- & -- \\
-
-        $a_{1g}$ & Ring stretch &
-        991.6 & C & 1028.9 & 37.3 \\
-
-        $a_{2g}$ & CH bend &
-        1326.0 & E & -- & -- \\
-
-        $e_{1g}$ & CH bend &
-        848.9 & C & -- & -- \\
-
-        $e_{2g}$ & CH stretch &
-        3046.8 & C & -- & -- \\
+        3061.9 & C & 3082.0 & 20.1 \\
 
         $e_{2g}$ & Ring stretch &
-        1606.4 & E & -- & -- \\
+        1606.4 & E & 1650.8 & 44.4 \\
 
         $e_{2g}$ & Ring stretch &
         1584.6 & E & -- & -- \\
 
+        $a_{1g}$ & Ring stretch &
+        991.6 & C & -- & -- \\
+
         $e_{2g}$ & CH bend &
         1178.0 & C & -- & -- \\
 
+        $e_{1g}$ & CH bend &
+        848.9 & C & -- & -- \\
+
         $e_{2g}$ & Ring deformation &
         605.6 & C & -- & -- \\
+
+        \hline
+        -- & Combination/overtone &
+        \textasciitilde 703 & -- & 690.2 & \textasciitilde -12.8 \\
+
+        -- & Unassigned feature &
+        -- & -- & 1067.0 & -- \\
+
+        -- & Unassigned feature &
+        -- & -- & 1246.0 & -- \\
+        \hline
+    \end{tabular}
+    \caption{Literature and measured Raman bands of benzene ($\mathrm{C_6H_6}$). 
+    The assignments of the measured bands are based on their proximity to literature
+    values; features without a close correspondence to a fundamental vibrational
+    mode are listed as tentative combination/overtone features.}
+    \label{tab:benzene_raman_comparison}
+\end{table}
+
+The measured Raman spectrum of benzene exhibits peaks at \(690.21\), \(1067\), \(1246\), \(1651\), and \(3082~\mathrm{cm^{-1}}\). Comparison with literature values shows that the observed features can be associated with several vibrational motions of the benzene molecule, although some assignments are less certain. The peak at \(690.21~\mathrm{cm^{-1}}\) lies in the region of benzene ring-deformation modes and may be related to an overtone or combination band; a calculated combination feature has been reported near \(703~\mathrm{cm^{-1}}\). The peaks at \(1067\) and \(1246~\mathrm{cm^{-1}}\) do not correspond closely to the principal fundamental Raman-active modes of benzene and may therefore originate from combination or overtone bands, or from experimental effects. The feature at \(1651~\mathrm{cm^{-1}}\) occurs in the region of the \(e_{2g}\) ring-stretching vibration, for which Raman lines are reported around \(1585\)--\(1606~\mathrm{cm^{-1}}\); this region is also affected by Fermi resonance between vibrational states. Finally, the peak at \(3082~\mathrm{cm^{-1}}\) lies in the C--H stretching region and can be associated with the Raman-active C--H stretching modes of benzene, reported around \(3047\)--\(3062~\mathrm{cm^{-1}}\). The systematic shift between several measured and literature frequencies should be considered when interpreting these assignments, as it may indicate an offset or calibration error in the Raman-shift determination.
+% }}}2
+% unknown spectra {{{2
+\subsection{Unknown sample Spectra}
+Figure \ref{fig:unknown_1} shows the spectra recorded for the sample whose content was not known in advance.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/unknown_stokes.png}
+    \caption{Spectra of \textit{unknown sample 1}. Data provided by Dennis Leonard}
+    \label{fig:unknown_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/unknown_450.png}
+    \caption{Spectra of \textit{peak at \SI{450}{\centi\meter^{-1}}}.}
+    \label{fig:fit_unknown_1}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 440.1 ± 0.3 & 651.14 ± 0.01 & 67.2 & 0.9929 \\
+Lorentzian & 439.7 ± 0.4 & 651.12 ± 0.02 & 74.9 & 0.9889 \\
+Voigt & 440.1 ± 0.3 & 651.14 ± 0.01 & 67.9 & 0.9930 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/unknown_950.png}
+    \caption{Fit for \textit{peak at \SI{950}{\centi\meter^{-1}}}.}
+    \label{fig:fit_unknown_2}
+\end{figure}
+
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 953.5 ± 0.3 & 673.66 ± 0.01 & 49.2 & 0.9876 \\
+Lorentzian & 953.2 ± 0.3 & 673.64 ± 0.01 & 48.5 & 0.9852 \\
+Voigt & 953.4 ± 0.2 & 673.66 ± 0.01 & 49.0 & 0.9889 \\
+\bottomrule
+\end{tabular}
+\end{table}
+% }}}2
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/unknown_1410.png}
+    \caption{Fit for \textit{peak at \SI{1410}{\centi\meter^{-1}}}.}
+    \label{fig:fit_unknown_3}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 1404.0 ± 1.3 & 694.75 ± 0.06 & 91.8 & 0.8903 \\
+Lorentzian & 1402.5 ± 1.0 & 694.67 ± 0.05 & 86.8 & 0.9146 \\
+Voigt & 1402.5 ± 1.0 & 694.67 ± 0.05 & 86.8 & 0.9146 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/unknown_2222.png}
+    \caption{Fit for \textit{peak at \SI{2226}{\centi\meter^{-1}}}.}
+    \label{fig:fit_unknown_4}
+\end{figure}
+
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 2226.5 ± 0.2 & 736.85 ± 0.01 & 40.2 & 0.9857 \\
+Lorentzian & 2226.6 ± 0.2 & 736.86 ± 0.01 & 40.9 & 0.9905 \\
+Voigt & 2226.6 ± 0.2 & 736.85 ± 0.01 & 40.5 & 0.9912 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/unknown_2888.png}
+    \caption{Fit for \textit{peak at \SI{2888}{\centi\meter^{-1}}}.}
+    \label{fig:fit_unknown_5}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{rlllll}
+\toprule
+Fit & $\Delta\nu$ (cm$^{-1}$) & $\lambda$ (nm) & FWHM (cm$^{-1}$) & $R^2$ \\
+\midrule
+Gaussian & 2890.6 ± 0.3 & 774.76 ± 0.02 & 46.0 & 0.9718 \\
+Lorentzian & 2890.3 ± 0.4 & 774.75 ± 0.02 & 47.2 & 0.9638 \\
+Voigt & 2890.6 ± 0.3 & 774.76 ± 0.02 & 46.3 & 0.9727 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+To find out the content of the unknown sample, the \href{https://webbook.nist.gov/chemistry/vib-ser/}{
+Search for Species Data by Vibrational Energy Value} of the NIST was used.
+
+\begin{table}[H]
+    \centering
+    \caption{Comparison of the measured Raman bands of the unknown sample
+    with the literature Raman frequencies of liquid acetonitrile ($\mathrm{CH_3CN}$).}
+    \label{tab:unknown_acetonitrile}
+    \begin{tabular}{cccccc}
+        \hline
+        Symmetry & Mode & NIST $\nu$ & Measured $\nu$ & Deviation & Assignment \\
+        & & \si{\per\centi\meter} & \si{\per\centi\meter} &
+        \si{\per\centi\meter} & \\
+        \hline
+        $e$ & CCN bend &
+        380 & 450 & +70 & Tentative \\
+
+        $a_1$ & CC stretch &
+        918 & 953 & +35 & Likely \\
+
+        $a_1$ & CH$_3$ s-deform &
+        1376 & 1402 & +26 & Likely \\
+
+        $a_1$ & CN stretch &
+        2249 & 2226 & -23 & Likely \\
+
+        $a_1$ & CH$_3$ s-stretch &
+        2942 & 2890 & -52 & Likely \\
+
         \hline
     \end{tabular}
 \end{table}
-\subsubsection{peak polarization}
-By observing figures \ref{fig:CCL4_0_90} and \ref{fig:CCL4_90_90}, it is evident that the peak we measured at \SI{490.9}{\centi\meter ^{-1}} corresponds to strongly polarised Raman scattering. Approximating from the values recorded
-\begin{equation}
-	\rho = \frac{I_\perp}{I_\parallel} \approx \frac{0.004}{0.030} = 0.13
-\end{equation}
-comparing with what was discussed in section \ref{sec:depol}, is is indeed strongly polarized.
+
+
+The unknown sample exhibits Raman bands at \(450\), \(953\), \(1402\), \(2226\), and \(2890~\mathrm{cm^{-1}}\). Comparison with the literature values for liquid acetonitrile shows good correspondence for several of these features. In particular, the bands at \(953\), \(1402\), \(2226\), and \(2890~\mathrm{cm^{-1}}\) can be associated with the C--C stretching, CH$_3$ symmetric deformation, C$\equiv$N stretching, and CH$_3$ symmetric stretching modes, respectively. The C$\equiv$N stretching band near \(2226~\mathrm{cm^{-1}}\) is particularly characteristic of acetonitrile and provides a useful distinction from benzene and $\mathrm{CCl_4}$. The peak at \(450~\mathrm{cm^{-1}}\) lies in the region of the CCN bending mode, although its deviation from the liquid-phase literature value of \(380~\mathrm{cm^{-1}}\) is relatively large, making this assignment less certain. Similarly, the measured frequencies show deviations from the literature values, which may result from calibration uncertainties or differences in the experimental conditions. Nevertheless, the overall pattern of several characteristic vibrational modes is consistent with acetonitrile and does not correspond to the characteristic Raman spectra of either benzene or $\mathrm{CCl_4}$. The unknown sample can therefore be identified as **consistent with acetonitrile**, while the deviations in individual peak positions should be taken into account when assessing the assignment.
+% }}}1
+% Ethanol {{{2
+\subsection{Ethanol concentration of an unknown sample}
+
+The integrated peak area was used as the measure of Raman signal intensity because it accounts for the intensity distributed over the entire spectral band rather than relying only on the peak maximum. This makes the measurement less sensitive to variations in peak width and small shifts in the peak position, providing a more robust quantity for comparing different ethanol concentrations. For this reason, the integrated area is preferable to the peak height for calibration purposes.
+
+The results show a general increase in integrated area with increasing ethanol concentration, particularly for the $100\%$ sample. However, the dependence is not strongly linear, as indicated by the relatively low coefficient of determination of $R^2 = 0.611$. In particular, the integrated areas measured for $25\%$, $50\%$, and $75\%$ ethanol are relatively similar, with the $50\%$ sample even giving a slightly lower value than the $25\%$ sample. This suggests that the experimental variations are substantial compared with the concentration-dependent change in Raman intensity. Possible sources include baseline subtraction, measurement noise, variations in the integration range, and fluctuations in the experimental conditions. Therefore, although the integrated area exhibits an overall increase with ethanol concentration, the present measurements do not demonstrate a strong linear calibration relationship.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/ethanol_calibration_curve.png}
+    \caption{Ethanol spectra for different concentrations (raw)}
+    \label{fig:integral}
+\end{figure}
 
 
 
-The rest of the peaks recorded for CCL4 are not strongly polarized, and from the graphs it can be estimated that $\rho \ge \frac{3}{4}$ for these.
+\begin{table}[H]
+  \centering
+  \caption{Ethanol Calibration Fit Results}
+  \label{tab:ethanol_calibration}
+  \begin{tabular}{cc}
+    \toprule
+    \textbf{Concentration (\%)} & \textbf{Integrated Area} \\
+    \midrule
+    25  & 1.2609 \\
+    50  & 1.1661 \\
+    75  & 1.2912 \\
+    100 & 1.5661 \\
+    \midrule
+    \multicolumn{2}{l}{\textbf{Linear Fit Statistics}} \\
+    \multicolumn{2}{l}{Equation: $\text{Area} = 0.0042 \times C + 1.0610$} \\
+    \multicolumn{2}{l}{$R^2 = 0.61135$} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+% }}}2
 
-Similarly, the only peak measured for benzene is only really visible on figure \ref{fig:benzene_90_90} which indicates strong polarization without any calculation needed.
-
-\cite{NIST} also reports the same polarization degrees as in our experiment
-
-\subsection{unknown samples}
-To find out the content of the unknown sample, the \href{https://webbook.nist.gov/chemistry/vib-ser/}{
-Search for Species Data by Vibrational Energy Value} of the NIST was used.
-After introducing the wavenumbers recorded in the experiment, a comparison between many molecules was done. given that we're lacking the polarization of the peaks, it's harder to pinpoint the actual content of the cuvette. Many molecules and peaks were looked after and a lot of the search filters were applied. Ultimately, we suspect that our spectra is heavily shifted, and we couldn't identify either of the two samples.
-
-If we dismiss the assumption that the spectra is shifted, then the spectra for sample 1 (figure \ref{fig:unknown_1}) contains two of the strong peaks of Borine carbonyl $\mathrm{CH_3^{11}BO}$, albeit slightly shifted from where they should be ($\SI{2380}{\cm^{-1}}$ recorded at $\SI{2384}{\cm^{-1}}$ and $\SI{2169}{\cm^{-1}}$ recorded at $\SI{2145}{\cm^{-1}}$). However, the second value is still far enough to classify it as such.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plots/ethanol_calibration_curve_fits.png}
+    \caption{Ethanol spectra for different concentrations (Voigt fit)}
+    \label{fig:integral_fits}
+\end{figure}
 
 
-Regarding the second sample, it was originally thought the peaks looked similar to bromoform raman peaks, but upon further inspection, the relative intensities between peaks do not match.
+\begin{table}[H]
+    \centering
+    \caption{Ethanol calibration results obtained by integrating the fitted Voigt profiles.}
+    \label{tab:ethanol_voigt_calibration}
+    \begin{tabular}{cc}
+        \toprule
+        \textbf{Ethanol concentration (\%)} &
+        \textbf{Integrated Voigt area (a.u.\,cm$^{-1}$)} \\
+        \midrule
+        25  & 1.44 \\
+        50  & 1.23 \\
+        75  & 1.31 \\
+        100 & 1.65 \\
+        \midrule
+        \multicolumn{2}{l}{\textbf{Linear fit}} \\
+        \multicolumn{2}{l}{Equation: $\mathrm{Area} = 0.0027C + 1.2382$} \\
+        \multicolumn{2}{l}{$R^2 = 0.233$} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
-We conclude this discussion suggesting that narrowing down the sample would've been easier if polarization data had been recorded during the experiment, as well as a more careful alignment of the analog/software calibration of the wavenumber.
-
-
-\subsection{Determination of the ethanol concentration of an unknown sample}
-
-Upon further inspection, we notice that all of the ethanol samples (Figures \ref{fig:water} to \ref{fig:ethanol_100}) show no clear correlation between peak intensities or position. It is unclear how to proceed to make this four spectra a ruler for ethanol concentration in unknown samples. Adding the fact that most likely our unknown spectra is heavily shifted, we opted to avoid making poorly-founded calculations of ethanol concentration.
-% }}}
+It was expected that the integ
+% }}}1
 % References printout {{{
 \nocite{*}
 \newpage
-% ============================================================
-
 \bibliographystyle{unsrtnat}
 \bibliography{references}
 % }}}

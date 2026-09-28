@@ -34,16 +34,15 @@ Gustavo~Morari do~Nascimento.
 \emph{Raman-Spektroskopie: Versuchsanleitung / Raman-Spectroscopy: Laboratory Instruction}.
 \newblock Technische Universität Kaiserslautern, Fachbereich Physik, January 2018.
 
-\bibitem[Brodin()]{chalmers}
+\bibitem[Brodin(1999)]{chalmers}
 Alexander Brodin.
 \newblock Alexander brodin.
-\newblock \url{https://fy.chalmers.se/OLDUSERS/brodin/}.
+\newblock \url{https://fy.chalmers.se/OLDUSERS/brodin/}, 1999.
 \newblock Chalmers University of Technology, Department of Experimental Physics.
 
 \bibitem[Shimanouchi(1972)]{NIST}
 Takehiko Shimanouchi.
 \newblock Tables of molecular vibrational frequencies, consolidated volume i.
-\newblock \penalty0 (NSRDS-NBS 39), 1972.
-\newblock \doi{10.6028/NBS.NSRDS.39}.
+\newblock Technical Report NSRDS-NBS 39, National Bureau of Standards, Washington, D.C., 1972.
 
 \end{thebibliography}
